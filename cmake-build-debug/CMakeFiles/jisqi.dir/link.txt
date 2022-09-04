@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/jisqi.dir/jisqi.cpp.o CMakeFiles/jisqi.dir/client.cpp.o CMakeFiles/jisqi.dir/test.cpp.o -o jisqi.exe -Wl,--out-implib,libjisqi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/rabbit.dir/five/rabbit.cpp.o -o rabbit.exe -Wl,--out-implib,librabbit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

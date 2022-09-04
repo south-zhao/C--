@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/8.4.dir/duotai/8.4.cpp.o -o 8.4.exe -Wl,--out-implib,lib8.4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/student.dir/five/student.cpp.o -o student.exe -Wl,--out-implib,libstudent.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

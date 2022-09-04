@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/birthday.dir/review/birthday.cpp.o -o birthday.exe -Wl,--out-implib,libbirthday.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

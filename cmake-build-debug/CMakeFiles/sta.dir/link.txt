@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/sta.dir/learn/sta.cpp.o -o sta.exe -Wl,--out-implib,libsta.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/7-6.dir/review/7-6.cpp.o -o 7-6.exe -Wl,--out-implib,lib7-6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

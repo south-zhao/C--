@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/const.dir/five/const.cpp.o -o const.exe -Wl,--out-implib,libconst.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

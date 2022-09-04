@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/7.2.dir/review/7.2.cpp.o -o 7.2.exe -Wl,--out-implib,lib7.2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/static.dir/learn/static.cpp.o -o static.exe -Wl,--out-implib,libstatic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/2-27.dir/timu/2-27.cpp.o -o 2-27.exe -Wl,--out-implib,lib2-27.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

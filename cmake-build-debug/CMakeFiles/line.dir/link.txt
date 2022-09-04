@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/line.dir/five/line.cpp.o -o line.exe -Wl,--out-implib,libline.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

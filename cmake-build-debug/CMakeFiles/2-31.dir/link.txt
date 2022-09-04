@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/2-31.dir/timu/2-31.cpp.o -o 2-31.exe -Wl,--out-implib,lib2-31.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
