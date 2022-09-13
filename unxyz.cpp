@@ -5,6 +5,8 @@
 
 int main()
 {
+
+
     X x;
     Z z;
     z.f(&x);
