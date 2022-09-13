@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/many.dir/jicheng/many_jicheng.cpp.o -o many.exe -Wl,--out-implib,libmany.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

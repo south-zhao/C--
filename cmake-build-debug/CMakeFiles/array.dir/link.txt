@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/array.dir/six/array.cpp.o -o array.exe -Wl,--out-implib,libarray.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

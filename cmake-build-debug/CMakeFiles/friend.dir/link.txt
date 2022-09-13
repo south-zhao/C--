@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/friend.dir/learn/friend.cpp.o -o friend.exe -Wl,--out-implib,libfriend.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

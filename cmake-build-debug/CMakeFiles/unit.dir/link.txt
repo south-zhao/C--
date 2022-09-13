@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/unit.dir/five/unit.cpp.o -o unit.exe -Wl,--out-implib,libunit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

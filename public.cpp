@@ -1,5 +1,5 @@
 //
-// Created by èµµé‘«æ° on 2022/5/21.
+// Created by ÕÔöÎ½Ü on 2022/5/21.
 //
 #include "iostream"
 using namespace std;
@@ -47,16 +47,17 @@ Un::Un(string major) {
 }
 
 void Un::show() {
-    cout<<"å§“å:"<<getN()<<endl;
-    cout<<"å¹´çº§:"<<getG()<<endl;
-    cout<<"ä¸“ä¸š:"<<_major<<endl;
+    cout<<"ĞÕÃû:"<<getN()<<endl;
+    cout<<"Äê¼¶:"<<getG()<<endl;
+    cout<<"×¨Òµ:"<<_major<<endl;
 }
 
 int main()
 {
-    Un stu1("è®¡ç®—æœº");
-    stu1.setG("å¤§ä¸‰");
-    stu1.setN("å¼ ä¸‰");
+    Un stu1("¼ÆËã»ú");
+    stu1.setG("´óÈı");
+    stu1.setN("ÕÅÈı");
     stu1.show();
+    system("pause");
     return 0;
 }

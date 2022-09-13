@@ -12,5 +12,6 @@ int main()
     ::x = 33;
     cout<<::x<<endl;
     cout<<"-"<<x<<endl;
+    system("pause");
     return 0;
 }

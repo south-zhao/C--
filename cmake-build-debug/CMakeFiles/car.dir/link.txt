@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/car.dir/jicheng/car.cpp.o -o car.exe -Wl,--out-implib,libcar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

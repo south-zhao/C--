@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/pool.dir/five/pool.cpp.o -o pool.exe -Wl,--out-implib,libpool.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

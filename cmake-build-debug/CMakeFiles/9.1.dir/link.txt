@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/9.1.dir/nine/9.1.cpp.o -o 9.1.exe -Wl,--out-implib,lib9.1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

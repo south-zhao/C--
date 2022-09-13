@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/7-1.dir/review/7-1.cpp.o -o 7-1.exe -Wl,--out-implib,lib7-1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

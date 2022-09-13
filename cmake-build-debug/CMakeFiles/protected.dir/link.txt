@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/protected.dir/jicheng/protected.cpp.o -o protected.exe -Wl,--out-implib,libprotected.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

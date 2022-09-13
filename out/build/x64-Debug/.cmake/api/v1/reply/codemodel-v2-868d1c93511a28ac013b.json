@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C__",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2-27::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2-27-Debug-b13597fe9d32b58a5498.json",
+					"name" : "2-27",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client-Debug-f87652ca49c152a3a2ce.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jisqi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jisqi-Debug-601ebfb0dd3697702376.json",
+					"name" : "jisqi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-0915cdb8edf72afe917f.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point-Debug-148dda32d3271cb5d627.json",
+					"name" : "point",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "protos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-protos-Debug-29bf1cc7e314b2b14660.json",
+					"name" : "protos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "public::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-public-Debug-4f8d7a52db9e276a7451.json",
+					"name" : "public",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stock-Debug-106c9791914b75e83bdf.json",
+					"name" : "stock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xianding::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xianding-Debug-7d4773cd70ba78316551.json",
+					"name" : "xianding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xyz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xyz-Debug-9dc66fbd425c296f6e21.json",
+					"name" : "xyz",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug",
+		"source" : "C:/Users/south-zhao/Desktop/C++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

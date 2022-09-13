@@ -1,0 +1,12 @@
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/public.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/xianding.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/2-27.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/main.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/point.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/client.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/stock.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/xyz.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/jisqi.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/protos.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/south-zhao/Desktop/C++/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

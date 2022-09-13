@@ -1,5 +1,5 @@
 //
-// Created by èµµé‘«æ° on 2022/5/23.
+// Created by ÕÔöÎ½Ü on 2022/5/23.
 //
 #include "iostream"
 
@@ -14,6 +14,6 @@ int main()
              i++;
         }
         if (i == 0)
-            cout<<j<<"æ˜¯è´¨æ•°"<<endl;}
+            cout<<j<<"ÊÇÖÊÊı"<<endl;}
     return 0;
 }

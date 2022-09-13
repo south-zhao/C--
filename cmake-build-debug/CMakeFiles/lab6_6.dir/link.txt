@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/lab6_6.dir/lab6/lab6_6.cpp.o -o lab6_6.exe -Wl,--out-implib,liblab6_6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/space.dir/learn/space.cpp.o -o space.exe -Wl,--out-implib,libspace.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

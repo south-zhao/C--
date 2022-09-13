@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: project
+# Project: C__
 # Configurations: Debug
 # =============================================================================
 
@@ -39,190 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /cygdrive/c/Users/赵鑫杰/Desktop/C++/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target project
-
-
-#############################################
-# Order-only phony target for project
-
-build cmake_object_order_depends_target_project: phony || CMakeFiles/project.dir
-
-build CMakeFiles/project.dir/main.cpp.o: CXX_COMPILER__project_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/main.cpp || cmake_object_order_depends_target_project
-  DEP_FILE = CMakeFiles/project.dir/main.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/project.dir
-  OBJECT_FILE_DIR = CMakeFiles/project.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target project
-
-
-#############################################
-# Link the executable project.exe
-
-build project.exe: CXX_EXECUTABLE_LINKER__project_Debug CMakeFiles/project.dir/main.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/project.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = project.exe
-  TARGET_IMPLIB = libproject.dll.a
-  TARGET_PDB = project.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target jisqi
-
-
-#############################################
-# Order-only phony target for jisqi
-
-build cmake_object_order_depends_target_jisqi: phony || CMakeFiles/jisqi.dir
-
-build CMakeFiles/jisqi.dir/jisqi.cpp.o: CXX_COMPILER__jisqi_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/jisqi.cpp || cmake_object_order_depends_target_jisqi
-  DEP_FILE = CMakeFiles/jisqi.dir/jisqi.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/jisqi.dir
-  OBJECT_FILE_DIR = CMakeFiles/jisqi.dir
-
-build CMakeFiles/jisqi.dir/client.cpp.o: CXX_COMPILER__jisqi_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/client.cpp || cmake_object_order_depends_target_jisqi
-  DEP_FILE = CMakeFiles/jisqi.dir/client.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/jisqi.dir
-  OBJECT_FILE_DIR = CMakeFiles/jisqi.dir
-
-build CMakeFiles/jisqi.dir/test.cpp.o: CXX_COMPILER__jisqi_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/test.cpp || cmake_object_order_depends_target_jisqi
-  DEP_FILE = CMakeFiles/jisqi.dir/test.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/jisqi.dir
-  OBJECT_FILE_DIR = CMakeFiles/jisqi.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target jisqi
-
-
-#############################################
-# Link the executable jisqi.exe
-
-build jisqi.exe: CXX_EXECUTABLE_LINKER__jisqi_Debug CMakeFiles/jisqi.dir/jisqi.cpp.o CMakeFiles/jisqi.dir/client.cpp.o CMakeFiles/jisqi.dir/test.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/jisqi.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = jisqi.exe
-  TARGET_IMPLIB = libjisqi.dll.a
-  TARGET_PDB = jisqi.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target client
-
-
-#############################################
-# Order-only phony target for client
-
-build cmake_object_order_depends_target_client: phony || CMakeFiles/client.dir
-
-build CMakeFiles/client.dir/client.cpp.o: CXX_COMPILER__client_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/client.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles/client.dir/client.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/client.dir
-  OBJECT_FILE_DIR = CMakeFiles/client.dir
-
-build CMakeFiles/client.dir/test.cpp.o: CXX_COMPILER__client_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/test.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles/client.dir/test.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/client.dir
-  OBJECT_FILE_DIR = CMakeFiles/client.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target client
-
-
-#############################################
-# Link the executable client.exe
-
-build client.exe: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/client.cpp.o CMakeFiles/client.dir/test.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/client.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = client.exe
-  TARGET_IMPLIB = libclient.dll.a
-  TARGET_PDB = client.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target point
-
-
-#############################################
-# Order-only phony target for point
-
-build cmake_object_order_depends_target_point: phony || CMakeFiles/point.dir
-
-build CMakeFiles/point.dir/point.cpp.o: CXX_COMPILER__point_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/point.cpp || cmake_object_order_depends_target_point
-  DEP_FILE = CMakeFiles/point.dir/point.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/point.dir
-  OBJECT_FILE_DIR = CMakeFiles/point.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target point
-
-
-#############################################
-# Link the executable point.exe
-
-build point.exe: CXX_EXECUTABLE_LINKER__point_Debug CMakeFiles/point.dir/point.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/point.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = point.exe
-  TARGET_IMPLIB = libpoint.dll.a
-  TARGET_PDB = point.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target protos
-
-
-#############################################
-# Order-only phony target for protos
-
-build cmake_object_order_depends_target_protos: phony || CMakeFiles/protos.dir
-
-build CMakeFiles/protos.dir/protos.cpp.o: CXX_COMPILER__protos_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/protos.cpp || cmake_object_order_depends_target_protos
-  DEP_FILE = CMakeFiles/protos.dir/protos.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/protos.dir
-  OBJECT_FILE_DIR = CMakeFiles/protos.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target protos
-
-
-#############################################
-# Link the executable protos.exe
-
-build protos.exe: CXX_EXECUTABLE_LINKER__protos_Debug CMakeFiles/protos.dir/protos.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/protos.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = protos.exe
-  TARGET_IMPLIB = libprotos.dll.a
-  TARGET_PDB = protos.exe.dbg
-
+cmake_ninja_workdir = C$:/Users/south-zhao/Desktop/C++/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target public
 
@@ -232,11 +49,11 @@ build protos.exe: CXX_EXECUTABLE_LINKER__protos_Debug CMakeFiles/protos.dir/prot
 
 build cmake_object_order_depends_target_public: phony || CMakeFiles/public.dir
 
-build CMakeFiles/public.dir/public.cpp.o: CXX_COMPILER__public_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/public.cpp || cmake_object_order_depends_target_public
-  DEP_FILE = CMakeFiles/public.dir/public.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/public.dir
-  OBJECT_FILE_DIR = CMakeFiles/public.dir
+build CMakeFiles/public.dir/public.cpp.obj: CXX_COMPILER__public_Debug C$:/Users/south-zhao/Desktop/C++/public.cpp || cmake_object_order_depends_target_public
+  DEP_FILE = CMakeFiles\public.dir\public.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\public.dir
+  OBJECT_FILE_DIR = CMakeFiles\public.dir
 
 
 # =============================================================================
@@ -246,12 +63,12 @@ build CMakeFiles/public.dir/public.cpp.o: CXX_COMPILER__public_Debug /cygdrive/c
 #############################################
 # Link the executable public.exe
 
-build public.exe: CXX_EXECUTABLE_LINKER__public_Debug CMakeFiles/public.dir/public.cpp.o
+build public.exe: CXX_EXECUTABLE_LINKER__public_Debug CMakeFiles/public.dir/public.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/public.dir
-  POST_BUILD = :
-  PRE_LINK = :
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\public.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
   TARGET_FILE = public.exe
   TARGET_IMPLIB = libpublic.dll.a
   TARGET_PDB = public.exe.dbg
@@ -265,11 +82,11 @@ build public.exe: CXX_EXECUTABLE_LINKER__public_Debug CMakeFiles/public.dir/publ
 
 build cmake_object_order_depends_target_xianding: phony || CMakeFiles/xianding.dir
 
-build CMakeFiles/xianding.dir/xianding.cpp.o: CXX_COMPILER__xianding_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/xianding.cpp || cmake_object_order_depends_target_xianding
-  DEP_FILE = CMakeFiles/xianding.dir/xianding.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/xianding.dir
-  OBJECT_FILE_DIR = CMakeFiles/xianding.dir
+build CMakeFiles/xianding.dir/xianding.cpp.obj: CXX_COMPILER__xianding_Debug C$:/Users/south-zhao/Desktop/C++/xianding.cpp || cmake_object_order_depends_target_xianding
+  DEP_FILE = CMakeFiles\xianding.dir\xianding.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\xianding.dir
+  OBJECT_FILE_DIR = CMakeFiles\xianding.dir
 
 
 # =============================================================================
@@ -279,15 +96,153 @@ build CMakeFiles/xianding.dir/xianding.cpp.o: CXX_COMPILER__xianding_Debug /cygd
 #############################################
 # Link the executable xianding.exe
 
-build xianding.exe: CXX_EXECUTABLE_LINKER__xianding_Debug CMakeFiles/xianding.dir/xianding.cpp.o
+build xianding.exe: CXX_EXECUTABLE_LINKER__xianding_Debug CMakeFiles/xianding.dir/xianding.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/xianding.dir
-  POST_BUILD = :
-  PRE_LINK = :
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\xianding.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
   TARGET_FILE = xianding.exe
   TARGET_IMPLIB = libxianding.dll.a
   TARGET_PDB = xianding.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-27
+
+
+#############################################
+# Order-only phony target for 2-27
+
+build cmake_object_order_depends_target_2-27: phony || CMakeFiles/2-27.dir
+
+build CMakeFiles/2-27.dir/timu/2-27.cpp.obj: CXX_COMPILER__2-27_Debug C$:/Users/south-zhao/Desktop/C++/timu/2-27.cpp || cmake_object_order_depends_target_2-27
+  DEP_FILE = CMakeFiles\2-27.dir\timu\2-27.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\2-27.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-27.dir\timu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-27
+
+
+#############################################
+# Link the executable 2-27.exe
+
+build 2-27.exe: CXX_EXECUTABLE_LINKER__2-27_Debug CMakeFiles/2-27.dir/timu/2-27.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2-27.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2-27.exe
+  TARGET_IMPLIB = lib2-27.dll.a
+  TARGET_PDB = 2-27.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main
+
+
+#############################################
+# Order-only phony target for main
+
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+
+build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug C$:/Users/south-zhao/Desktop/C++/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main
+
+
+#############################################
+# Link the executable main.exe
+
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = main.exe
+  TARGET_IMPLIB = libmain.dll.a
+  TARGET_PDB = main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target point
+
+
+#############################################
+# Order-only phony target for point
+
+build cmake_object_order_depends_target_point: phony || CMakeFiles/point.dir
+
+build CMakeFiles/point.dir/point.cpp.obj: CXX_COMPILER__point_Debug C$:/Users/south-zhao/Desktop/C++/point.cpp || cmake_object_order_depends_target_point
+  DEP_FILE = CMakeFiles\point.dir\point.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\point.dir
+  OBJECT_FILE_DIR = CMakeFiles\point.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target point
+
+
+#############################################
+# Link the executable point.exe
+
+build point.exe: CXX_EXECUTABLE_LINKER__point_Debug CMakeFiles/point.dir/point.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\point.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = point.exe
+  TARGET_IMPLIB = libpoint.dll.a
+  TARGET_PDB = point.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target client
+
+
+#############################################
+# Order-only phony target for client
+
+build cmake_object_order_depends_target_client: phony || CMakeFiles/client.dir
+
+build CMakeFiles/client.dir/client.cpp.obj: CXX_COMPILER__client_Debug C$:/Users/south-zhao/Desktop/C++/client.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles\client.dir\client.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\client.dir
+  OBJECT_FILE_DIR = CMakeFiles\client.dir
+
+build CMakeFiles/client.dir/test.cpp.obj: CXX_COMPILER__client_Debug C$:/Users/south-zhao/Desktop/C++/test.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles\client.dir\test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\client.dir
+  OBJECT_FILE_DIR = CMakeFiles\client.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target client
+
+
+#############################################
+# Link the executable client.exe
+
+build client.exe: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/client.cpp.obj CMakeFiles/client.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\client.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = client.exe
+  TARGET_IMPLIB = libclient.dll.a
+  TARGET_PDB = client.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target stock
@@ -298,17 +253,17 @@ build xianding.exe: CXX_EXECUTABLE_LINKER__xianding_Debug CMakeFiles/xianding.di
 
 build cmake_object_order_depends_target_stock: phony || CMakeFiles/stock.dir
 
-build CMakeFiles/stock.dir/stock.cpp.o: CXX_COMPILER__stock_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/stock.cpp || cmake_object_order_depends_target_stock
-  DEP_FILE = CMakeFiles/stock.dir/stock.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/stock.dir
-  OBJECT_FILE_DIR = CMakeFiles/stock.dir
+build CMakeFiles/stock.dir/stock.cpp.obj: CXX_COMPILER__stock_Debug C$:/Users/south-zhao/Desktop/C++/stock.cpp || cmake_object_order_depends_target_stock
+  DEP_FILE = CMakeFiles\stock.dir\stock.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\stock.dir
+  OBJECT_FILE_DIR = CMakeFiles\stock.dir
 
-build CMakeFiles/stock.dir/unstock.cpp.o: CXX_COMPILER__stock_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/unstock.cpp || cmake_object_order_depends_target_stock
-  DEP_FILE = CMakeFiles/stock.dir/unstock.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/stock.dir
-  OBJECT_FILE_DIR = CMakeFiles/stock.dir
+build CMakeFiles/stock.dir/unstock.cpp.obj: CXX_COMPILER__stock_Debug C$:/Users/south-zhao/Desktop/C++/unstock.cpp || cmake_object_order_depends_target_stock
+  DEP_FILE = CMakeFiles\stock.dir\unstock.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\stock.dir
+  OBJECT_FILE_DIR = CMakeFiles\stock.dir
 
 
 # =============================================================================
@@ -318,12 +273,12 @@ build CMakeFiles/stock.dir/unstock.cpp.o: CXX_COMPILER__stock_Debug /cygdrive/c/
 #############################################
 # Link the executable stock.exe
 
-build stock.exe: CXX_EXECUTABLE_LINKER__stock_Debug CMakeFiles/stock.dir/stock.cpp.o CMakeFiles/stock.dir/unstock.cpp.o
+build stock.exe: CXX_EXECUTABLE_LINKER__stock_Debug CMakeFiles/stock.dir/stock.cpp.obj CMakeFiles/stock.dir/unstock.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/stock.dir
-  POST_BUILD = :
-  PRE_LINK = :
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stock.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
   TARGET_FILE = stock.exe
   TARGET_IMPLIB = libstock.dll.a
   TARGET_PDB = stock.exe.dbg
@@ -337,17 +292,17 @@ build stock.exe: CXX_EXECUTABLE_LINKER__stock_Debug CMakeFiles/stock.dir/stock.c
 
 build cmake_object_order_depends_target_xyz: phony || CMakeFiles/xyz.dir
 
-build CMakeFiles/xyz.dir/xyz.cpp.o: CXX_COMPILER__xyz_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/xyz.cpp || cmake_object_order_depends_target_xyz
-  DEP_FILE = CMakeFiles/xyz.dir/xyz.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/xyz.dir
-  OBJECT_FILE_DIR = CMakeFiles/xyz.dir
+build CMakeFiles/xyz.dir/xyz.cpp.obj: CXX_COMPILER__xyz_Debug C$:/Users/south-zhao/Desktop/C++/xyz.cpp || cmake_object_order_depends_target_xyz
+  DEP_FILE = CMakeFiles\xyz.dir\xyz.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\xyz.dir
+  OBJECT_FILE_DIR = CMakeFiles\xyz.dir
 
-build CMakeFiles/xyz.dir/unxyz.cpp.o: CXX_COMPILER__xyz_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/unxyz.cpp || cmake_object_order_depends_target_xyz
-  DEP_FILE = CMakeFiles/xyz.dir/unxyz.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/xyz.dir
-  OBJECT_FILE_DIR = CMakeFiles/xyz.dir
+build CMakeFiles/xyz.dir/unxyz.cpp.obj: CXX_COMPILER__xyz_Debug C$:/Users/south-zhao/Desktop/C++/unxyz.cpp || cmake_object_order_depends_target_xyz
+  DEP_FILE = CMakeFiles\xyz.dir\unxyz.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\xyz.dir
+  OBJECT_FILE_DIR = CMakeFiles\xyz.dir
 
 
 # =============================================================================
@@ -357,2497 +312,88 @@ build CMakeFiles/xyz.dir/unxyz.cpp.o: CXX_COMPILER__xyz_Debug /cygdrive/c/Users/
 #############################################
 # Link the executable xyz.exe
 
-build xyz.exe: CXX_EXECUTABLE_LINKER__xyz_Debug CMakeFiles/xyz.dir/xyz.cpp.o CMakeFiles/xyz.dir/unxyz.cpp.o
+build xyz.exe: CXX_EXECUTABLE_LINKER__xyz_Debug CMakeFiles/xyz.dir/xyz.cpp.obj CMakeFiles/xyz.dir/unxyz.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/xyz.dir
-  POST_BUILD = :
-  PRE_LINK = :
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\xyz.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
   TARGET_FILE = xyz.exe
   TARGET_IMPLIB = libxyz.dll.a
   TARGET_PDB = xyz.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 8.1
+# Object build statements for EXECUTABLE target jisqi
 
 
 #############################################
-# Order-only phony target for 8.1
+# Order-only phony target for jisqi
 
-build cmake_object_order_depends_target_8.1: phony || CMakeFiles/8.1.dir
+build cmake_object_order_depends_target_jisqi: phony || CMakeFiles/jisqi.dir
 
-build CMakeFiles/8.1.dir/duotai/8.1.cpp.o: CXX_COMPILER__8.2e1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/duotai/8.1.cpp || cmake_object_order_depends_target_8.1
-  DEP_FILE = CMakeFiles/8.1.dir/duotai/8.1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/8.1.dir
-  OBJECT_FILE_DIR = CMakeFiles/8.1.dir/duotai
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 8.1
-
-
-#############################################
-# Link the executable 8.1.exe
-
-build 8.1.exe: CXX_EXECUTABLE_LINKER__8.2e1_Debug CMakeFiles/8.1.dir/duotai/8.1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/8.1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 8.1.exe
-  TARGET_IMPLIB = lib8.1.dll.a
-  TARGET_PDB = 8.1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 8.2
-
-
-#############################################
-# Order-only phony target for 8.2
-
-build cmake_object_order_depends_target_8.2: phony || CMakeFiles/8.2.dir
-
-build CMakeFiles/8.2.dir/duotai/8.2.cpp.o: CXX_COMPILER__8.2e2_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/duotai/8.2.cpp || cmake_object_order_depends_target_8.2
-  DEP_FILE = CMakeFiles/8.2.dir/duotai/8.2.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/8.2.dir
-  OBJECT_FILE_DIR = CMakeFiles/8.2.dir/duotai
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 8.2
-
-
-#############################################
-# Link the executable 8.2.exe
-
-build 8.2.exe: CXX_EXECUTABLE_LINKER__8.2e2_Debug CMakeFiles/8.2.dir/duotai/8.2.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/8.2.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 8.2.exe
-  TARGET_IMPLIB = lib8.2.dll.a
-  TARGET_PDB = 8.2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 8.4
-
-
-#############################################
-# Order-only phony target for 8.4
-
-build cmake_object_order_depends_target_8.4: phony || CMakeFiles/8.4.dir
-
-build CMakeFiles/8.4.dir/duotai/8.4.cpp.o: CXX_COMPILER__8.2e4_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/duotai/8.4.cpp || cmake_object_order_depends_target_8.4
-  DEP_FILE = CMakeFiles/8.4.dir/duotai/8.4.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/8.4.dir
-  OBJECT_FILE_DIR = CMakeFiles/8.4.dir/duotai
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 8.4
-
-
-#############################################
-# Link the executable 8.4.exe
-
-build 8.4.exe: CXX_EXECUTABLE_LINKER__8.2e4_Debug CMakeFiles/8.4.dir/duotai/8.4.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/8.4.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 8.4.exe
-  TARGET_IMPLIB = lib8.4.dll.a
-  TARGET_PDB = 8.4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bank
-
-
-#############################################
-# Order-only phony target for bank
-
-build cmake_object_order_depends_target_bank: phony || CMakeFiles/bank.dir
-
-build CMakeFiles/bank.dir/five/bank.cpp.o: CXX_COMPILER__bank_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/bank.cpp || cmake_object_order_depends_target_bank
-  DEP_FILE = CMakeFiles/bank.dir/five/bank.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/bank.dir
-  OBJECT_FILE_DIR = CMakeFiles/bank.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bank
-
-
-#############################################
-# Link the executable bank.exe
-
-build bank.exe: CXX_EXECUTABLE_LINKER__bank_Debug CMakeFiles/bank.dir/five/bank.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/bank.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = bank.exe
-  TARGET_IMPLIB = libbank.dll.a
-  TARGET_PDB = bank.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target birthday
-
-
-#############################################
-# Order-only phony target for birthday
-
-build cmake_object_order_depends_target_birthday: phony || CMakeFiles/birthday.dir
-
-build CMakeFiles/birthday.dir/review/birthday.cpp.o: CXX_COMPILER__birthday_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/birthday.cpp || cmake_object_order_depends_target_birthday
-  DEP_FILE = CMakeFiles/birthday.dir/review/birthday.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/birthday.dir
-  OBJECT_FILE_DIR = CMakeFiles/birthday.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target birthday
-
-
-#############################################
-# Link the executable birthday.exe
-
-build birthday.exe: CXX_EXECUTABLE_LINKER__birthday_Debug CMakeFiles/birthday.dir/review/birthday.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/birthday.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = birthday.exe
-  TARGET_IMPLIB = libbirthday.dll.a
-  TARGET_PDB = birthday.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target colck
-
-
-#############################################
-# Order-only phony target for colck
-
-build cmake_object_order_depends_target_colck: phony || CMakeFiles/colck.dir
-
-build CMakeFiles/colck.dir/five/colck.cpp.o: CXX_COMPILER__colck_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/colck.cpp || cmake_object_order_depends_target_colck
-  DEP_FILE = CMakeFiles/colck.dir/five/colck.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/colck.dir
-  OBJECT_FILE_DIR = CMakeFiles/colck.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target colck
-
-
-#############################################
-# Link the executable colck.exe
-
-build colck.exe: CXX_EXECUTABLE_LINKER__colck_Debug CMakeFiles/colck.dir/five/colck.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/colck.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = colck.exe
-  TARGET_IMPLIB = libcolck.dll.a
-  TARGET_PDB = colck.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target const
-
-
-#############################################
-# Order-only phony target for const
-
-build cmake_object_order_depends_target_const: phony || CMakeFiles/const.dir
-
-build CMakeFiles/const.dir/five/const.cpp.o: CXX_COMPILER__const_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/const.cpp || cmake_object_order_depends_target_const
-  DEP_FILE = CMakeFiles/const.dir/five/const.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/const.dir
-  OBJECT_FILE_DIR = CMakeFiles/const.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target const
-
-
-#############################################
-# Link the executable const.exe
-
-build const.exe: CXX_EXECUTABLE_LINKER__const_Debug CMakeFiles/const.dir/five/const.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/const.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = const.exe
-  TARGET_IMPLIB = libconst.dll.a
-  TARGET_PDB = const.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Point
-
-
-#############################################
-# Order-only phony target for Point
-
-build cmake_object_order_depends_target_Point: phony || CMakeFiles/Point.dir
-
-build CMakeFiles/Point.dir/five/Point.cpp.o: CXX_COMPILER__Point_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/Point.cpp || cmake_object_order_depends_target_Point
-  DEP_FILE = CMakeFiles/Point.dir/five/Point.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/Point.dir
-  OBJECT_FILE_DIR = CMakeFiles/Point.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Point
-
-
-#############################################
-# Link the executable Point.exe
-
-build Point.exe: CXX_EXECUTABLE_LINKER__Point_Debug CMakeFiles/Point.dir/five/Point.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/Point.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Point.exe
-  TARGET_IMPLIB = libPoint.dll.a
-  TARGET_PDB = Point.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target pool
-
-
-#############################################
-# Order-only phony target for pool
-
-build cmake_object_order_depends_target_pool: phony || CMakeFiles/pool.dir
-
-build CMakeFiles/pool.dir/five/pool.cpp.o: CXX_COMPILER__pool_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/pool.cpp || cmake_object_order_depends_target_pool
-  DEP_FILE = CMakeFiles/pool.dir/five/pool.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/pool.dir
-  OBJECT_FILE_DIR = CMakeFiles/pool.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target pool
-
-
-#############################################
-# Link the executable pool.exe
-
-build pool.exe: CXX_EXECUTABLE_LINKER__pool_Debug CMakeFiles/pool.dir/five/pool.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/pool.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = pool.exe
-  TARGET_IMPLIB = libpool.dll.a
-  TARGET_PDB = pool.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target rabbit
-
-
-#############################################
-# Order-only phony target for rabbit
-
-build cmake_object_order_depends_target_rabbit: phony || CMakeFiles/rabbit.dir
-
-build CMakeFiles/rabbit.dir/five/rabbit.cpp.o: CXX_COMPILER__rabbit_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/rabbit.cpp || cmake_object_order_depends_target_rabbit
-  DEP_FILE = CMakeFiles/rabbit.dir/five/rabbit.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/rabbit.dir
-  OBJECT_FILE_DIR = CMakeFiles/rabbit.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target rabbit
-
-
-#############################################
-# Link the executable rabbit.exe
-
-build rabbit.exe: CXX_EXECUTABLE_LINKER__rabbit_Debug CMakeFiles/rabbit.dir/five/rabbit.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/rabbit.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = rabbit.exe
-  TARGET_IMPLIB = librabbit.dll.a
-  TARGET_PDB = rabbit.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target rank
-
-
-#############################################
-# Order-only phony target for rank
-
-build cmake_object_order_depends_target_rank: phony || CMakeFiles/rank.dir
-
-build CMakeFiles/rank.dir/five/rank.cpp.o: CXX_COMPILER__rank_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/rank.cpp || cmake_object_order_depends_target_rank
-  DEP_FILE = CMakeFiles/rank.dir/five/rank.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/rank.dir
-  OBJECT_FILE_DIR = CMakeFiles/rank.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target rank
-
-
-#############################################
-# Link the executable rank.exe
-
-build rank.exe: CXX_EXECUTABLE_LINKER__rank_Debug CMakeFiles/rank.dir/five/rank.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/rank.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = rank.exe
-  TARGET_IMPLIB = librank.dll.a
-  TARGET_PDB = rank.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target student
-
-
-#############################################
-# Order-only phony target for student
-
-build cmake_object_order_depends_target_student: phony || CMakeFiles/student.dir
-
-build CMakeFiles/student.dir/five/student.cpp.o: CXX_COMPILER__student_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/student.cpp || cmake_object_order_depends_target_student
-  DEP_FILE = CMakeFiles/student.dir/five/student.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/student.dir
-  OBJECT_FILE_DIR = CMakeFiles/student.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target student
-
-
-#############################################
-# Link the executable student.exe
-
-build student.exe: CXX_EXECUTABLE_LINKER__student_Debug CMakeFiles/student.dir/five/student.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/student.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = student.exe
-  TARGET_IMPLIB = libstudent.dll.a
-  TARGET_PDB = student.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target unit
-
-
-#############################################
-# Order-only phony target for unit
-
-build cmake_object_order_depends_target_unit: phony || CMakeFiles/unit.dir
-
-build CMakeFiles/unit.dir/five/unit.cpp.o: CXX_COMPILER__unit_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/unit.cpp || cmake_object_order_depends_target_unit
-  DEP_FILE = CMakeFiles/unit.dir/five/unit.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/unit.dir
-  OBJECT_FILE_DIR = CMakeFiles/unit.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target unit
-
-
-#############################################
-# Link the executable unit.exe
-
-build unit.exe: CXX_EXECUTABLE_LINKER__unit_Debug CMakeFiles/unit.dir/five/unit.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/unit.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = unit.exe
-  TARGET_IMPLIB = libunit.dll.a
-  TARGET_PDB = unit.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target line
-
-
-#############################################
-# Order-only phony target for line
-
-build cmake_object_order_depends_target_line: phony || CMakeFiles/line.dir
-
-build CMakeFiles/line.dir/five/line.cpp.o: CXX_COMPILER__line_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/five/line.cpp || cmake_object_order_depends_target_line
-  DEP_FILE = CMakeFiles/line.dir/five/line.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/line.dir
-  OBJECT_FILE_DIR = CMakeFiles/line.dir/five
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target line
-
-
-#############################################
-# Link the executable line.exe
-
-build line.exe: CXX_EXECUTABLE_LINKER__line_Debug CMakeFiles/line.dir/five/line.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/line.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = line.exe
-  TARGET_IMPLIB = libline.dll.a
-  TARGET_PDB = line.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 7.2
-
-
-#############################################
-# Order-only phony target for 7.2
-
-build cmake_object_order_depends_target_7.2: phony || CMakeFiles/7.2.dir
-
-build CMakeFiles/7.2.dir/review/7.2.cpp.o: CXX_COMPILER__7.2e2_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/7.2.cpp || cmake_object_order_depends_target_7.2
-  DEP_FILE = CMakeFiles/7.2.dir/review/7.2.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/7.2.dir
-  OBJECT_FILE_DIR = CMakeFiles/7.2.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 7.2
-
-
-#############################################
-# Link the executable 7.2.exe
-
-build 7.2.exe: CXX_EXECUTABLE_LINKER__7.2e2_Debug CMakeFiles/7.2.dir/review/7.2.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/7.2.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 7.2.exe
-  TARGET_IMPLIB = lib7.2.dll.a
-  TARGET_PDB = 7.2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 7.3
-
-
-#############################################
-# Order-only phony target for 7.3
-
-build cmake_object_order_depends_target_7.3: phony || CMakeFiles/7.3.dir
-
-build CMakeFiles/7.3.dir/review/7.3.cpp.o: CXX_COMPILER__7.2e3_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/7.3.cpp || cmake_object_order_depends_target_7.3
-  DEP_FILE = CMakeFiles/7.3.dir/review/7.3.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/7.3.dir
-  OBJECT_FILE_DIR = CMakeFiles/7.3.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 7.3
-
-
-#############################################
-# Link the executable 7.3.exe
-
-build 7.3.exe: CXX_EXECUTABLE_LINKER__7.2e3_Debug CMakeFiles/7.3.dir/review/7.3.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/7.3.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 7.3.exe
-  TARGET_IMPLIB = lib7.3.dll.a
-  TARGET_PDB = 7.3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 7.4
-
-
-#############################################
-# Order-only phony target for 7.4
-
-build cmake_object_order_depends_target_7.4: phony || CMakeFiles/7.4.dir
-
-build CMakeFiles/7.4.dir/review/7.4.cpp.o: CXX_COMPILER__7.2e4_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/7.4.cpp || cmake_object_order_depends_target_7.4
-  DEP_FILE = CMakeFiles/7.4.dir/review/7.4.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/7.4.dir
-  OBJECT_FILE_DIR = CMakeFiles/7.4.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 7.4
-
-
-#############################################
-# Link the executable 7.4.exe
-
-build 7.4.exe: CXX_EXECUTABLE_LINKER__7.2e4_Debug CMakeFiles/7.4.dir/review/7.4.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/7.4.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 7.4.exe
-  TARGET_IMPLIB = lib7.4.dll.a
-  TARGET_PDB = 7.4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 7.5
-
-
-#############################################
-# Order-only phony target for 7.5
-
-build cmake_object_order_depends_target_7.5: phony || CMakeFiles/7.5.dir
-
-build CMakeFiles/7.5.dir/review/7.5.cpp.o: CXX_COMPILER__7.2e5_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/7.5.cpp || cmake_object_order_depends_target_7.5
-  DEP_FILE = CMakeFiles/7.5.dir/review/7.5.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/7.5.dir
-  OBJECT_FILE_DIR = CMakeFiles/7.5.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 7.5
-
-
-#############################################
-# Link the executable 7.5.exe
-
-build 7.5.exe: CXX_EXECUTABLE_LINKER__7.2e5_Debug CMakeFiles/7.5.dir/review/7.5.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/7.5.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 7.5.exe
-  TARGET_IMPLIB = lib7.5.dll.a
-  TARGET_PDB = 7.5.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 12.2-1
-
-
-#############################################
-# Order-only phony target for 12.2-1
-
-build cmake_object_order_depends_target_12.2-1: phony || CMakeFiles/12.2-1.dir
-
-build CMakeFiles/12.2-1.dir/jicheng/12.2-1.cpp.o: CXX_COMPILER__12.2e2-1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/jicheng/12.2-1.cpp || cmake_object_order_depends_target_12.2-1
-  DEP_FILE = CMakeFiles/12.2-1.dir/jicheng/12.2-1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/12.2-1.dir
-  OBJECT_FILE_DIR = CMakeFiles/12.2-1.dir/jicheng
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 12.2-1
-
-
-#############################################
-# Link the executable 12.2-1.exe
-
-build 12.2-1.exe: CXX_EXECUTABLE_LINKER__12.2e2-1_Debug CMakeFiles/12.2-1.dir/jicheng/12.2-1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/12.2-1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 12.2-1.exe
-  TARGET_IMPLIB = lib12.2-1.dll.a
-  TARGET_PDB = 12.2-1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target derive
-
-
-#############################################
-# Order-only phony target for derive
-
-build cmake_object_order_depends_target_derive: phony || CMakeFiles/derive.dir
-
-build CMakeFiles/derive.dir/jicheng/derive.cpp.o: CXX_COMPILER__derive_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/jicheng/derive.cpp || cmake_object_order_depends_target_derive
-  DEP_FILE = CMakeFiles/derive.dir/jicheng/derive.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/derive.dir
-  OBJECT_FILE_DIR = CMakeFiles/derive.dir/jicheng
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target derive
-
-
-#############################################
-# Link the executable derive.exe
-
-build derive.exe: CXX_EXECUTABLE_LINKER__derive_Debug CMakeFiles/derive.dir/jicheng/derive.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/derive.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = derive.exe
-  TARGET_IMPLIB = libderive.dll.a
-  TARGET_PDB = derive.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target eryi
-
-
-#############################################
-# Order-only phony target for eryi
-
-build cmake_object_order_depends_target_eryi: phony || CMakeFiles/eryi.dir
-
-build CMakeFiles/eryi.dir/jicheng/eryi.cpp.o: CXX_COMPILER__eryi_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/jicheng/eryi.cpp || cmake_object_order_depends_target_eryi
-  DEP_FILE = CMakeFiles/eryi.dir/jicheng/eryi.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/eryi.dir
-  OBJECT_FILE_DIR = CMakeFiles/eryi.dir/jicheng
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target eryi
-
-
-#############################################
-# Link the executable eryi.exe
-
-build eryi.exe: CXX_EXECUTABLE_LINKER__eryi_Debug CMakeFiles/eryi.dir/jicheng/eryi.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/eryi.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = eryi.exe
-  TARGET_IMPLIB = liberyi.dll.a
-  TARGET_PDB = eryi.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target many
-
-
-#############################################
-# Order-only phony target for many
-
-build cmake_object_order_depends_target_many: phony || CMakeFiles/many.dir
-
-build CMakeFiles/many.dir/jicheng/many_jicheng.cpp.o: CXX_COMPILER__many_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/jicheng/many$ jicheng.cpp || cmake_object_order_depends_target_many
-  DEP_FILE = CMakeFiles/many.dir/jicheng/many_jicheng.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/many.dir
-  OBJECT_FILE_DIR = CMakeFiles/many.dir/jicheng
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target many
-
-
-#############################################
-# Link the executable many.exe
-
-build many.exe: CXX_EXECUTABLE_LINKER__many_Debug CMakeFiles/many.dir/jicheng/many_jicheng.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/many.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = many.exe
-  TARGET_IMPLIB = libmany.dll.a
-  TARGET_PDB = many.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target car
-
-
-#############################################
-# Order-only phony target for car
-
-build cmake_object_order_depends_target_car: phony || CMakeFiles/car.dir
-
-build CMakeFiles/car.dir/jicheng/car.cpp.o: CXX_COMPILER__car_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/jicheng/car.cpp || cmake_object_order_depends_target_car
-  DEP_FILE = CMakeFiles/car.dir/jicheng/car.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/car.dir
-  OBJECT_FILE_DIR = CMakeFiles/car.dir/jicheng
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target car
-
-
-#############################################
-# Link the executable car.exe
-
-build car.exe: CXX_EXECUTABLE_LINKER__car_Debug CMakeFiles/car.dir/jicheng/car.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/car.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = car.exe
-  TARGET_IMPLIB = libcar.dll.a
-  TARGET_PDB = car.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target protected
-
-
-#############################################
-# Order-only phony target for protected
-
-build cmake_object_order_depends_target_protected: phony || CMakeFiles/protected.dir
-
-build CMakeFiles/protected.dir/jicheng/protected.cpp.o: CXX_COMPILER__protected_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/jicheng/protected.cpp || cmake_object_order_depends_target_protected
-  DEP_FILE = CMakeFiles/protected.dir/jicheng/protected.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/protected.dir
-  OBJECT_FILE_DIR = CMakeFiles/protected.dir/jicheng
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target protected
-
-
-#############################################
-# Link the executable protected.exe
-
-build protected.exe: CXX_EXECUTABLE_LINKER__protected_Debug CMakeFiles/protected.dir/jicheng/protected.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/protected.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = protected.exe
-  TARGET_IMPLIB = libprotected.dll.a
-  TARGET_PDB = protected.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target students
-
-
-#############################################
-# Order-only phony target for students
-
-build cmake_object_order_depends_target_students: phony || CMakeFiles/students.dir
-
-build CMakeFiles/students.dir/jicheng/students.cpp.o: CXX_COMPILER__students_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/jicheng/students.cpp || cmake_object_order_depends_target_students
-  DEP_FILE = CMakeFiles/students.dir/jicheng/students.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/students.dir
-  OBJECT_FILE_DIR = CMakeFiles/students.dir/jicheng
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target students
-
-
-#############################################
-# Link the executable students.exe
-
-build students.exe: CXX_EXECUTABLE_LINKER__students_Debug CMakeFiles/students.dir/jicheng/students.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/students.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = students.exe
-  TARGET_IMPLIB = libstudents.dll.a
-  TARGET_PDB = students.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab4_1
-
-
-#############################################
-# Order-only phony target for lab4_1
-
-build cmake_object_order_depends_target_lab4_1: phony || CMakeFiles/lab4_1.dir
-
-build CMakeFiles/lab4_1.dir/lab4/lab4_1.cpp.o: CXX_COMPILER__lab4_1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab4/lab4_1.cpp || cmake_object_order_depends_target_lab4_1
-  DEP_FILE = CMakeFiles/lab4_1.dir/lab4/lab4_1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab4_1.dir/lab4
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab4_1
-
-
-#############################################
-# Link the executable lab4_1.exe
-
-build lab4_1.exe: CXX_EXECUTABLE_LINKER__lab4_1_Debug CMakeFiles/lab4_1.dir/lab4/lab4_1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab4_1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab4_1.exe
-  TARGET_IMPLIB = liblab4_1.dll.a
-  TARGET_PDB = lab4_1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab4_2
-
-
-#############################################
-# Order-only phony target for lab4_2
-
-build cmake_object_order_depends_target_lab4_2: phony || CMakeFiles/lab4_2.dir
-
-build CMakeFiles/lab4_2.dir/lab4/lab4_2.cpp.o: CXX_COMPILER__lab4_2_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab4/lab4_2.cpp || cmake_object_order_depends_target_lab4_2
-  DEP_FILE = CMakeFiles/lab4_2.dir/lab4/lab4_2.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab4_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab4_2.dir/lab4
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab4_2
-
-
-#############################################
-# Link the executable lab4_2.exe
-
-build lab4_2.exe: CXX_EXECUTABLE_LINKER__lab4_2_Debug CMakeFiles/lab4_2.dir/lab4/lab4_2.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab4_2.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab4_2.exe
-  TARGET_IMPLIB = liblab4_2.dll.a
-  TARGET_PDB = lab4_2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab4_3
-
-
-#############################################
-# Order-only phony target for lab4_3
-
-build cmake_object_order_depends_target_lab4_3: phony || CMakeFiles/lab4_3.dir
-
-build CMakeFiles/lab4_3.dir/lab4/lab4_3.cpp.o: CXX_COMPILER__lab4_3_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab4/lab4_3.cpp || cmake_object_order_depends_target_lab4_3
-  DEP_FILE = CMakeFiles/lab4_3.dir/lab4/lab4_3.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab4_3.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab4_3.dir/lab4
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab4_3
-
-
-#############################################
-# Link the executable lab4_3.exe
-
-build lab4_3.exe: CXX_EXECUTABLE_LINKER__lab4_3_Debug CMakeFiles/lab4_3.dir/lab4/lab4_3.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab4_3.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab4_3.exe
-  TARGET_IMPLIB = liblab4_3.dll.a
-  TARGET_PDB = lab4_3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab5_1
-
-
-#############################################
-# Order-only phony target for lab5_1
-
-build cmake_object_order_depends_target_lab5_1: phony || CMakeFiles/lab5_1.dir
-
-build CMakeFiles/lab5_1.dir/lab5/lab5_1.cpp.o: CXX_COMPILER__lab5_1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab5/lab5_1.cpp || cmake_object_order_depends_target_lab5_1
-  DEP_FILE = CMakeFiles/lab5_1.dir/lab5/lab5_1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab5_1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab5_1.dir/lab5
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab5_1
-
-
-#############################################
-# Link the executable lab5_1.exe
-
-build lab5_1.exe: CXX_EXECUTABLE_LINKER__lab5_1_Debug CMakeFiles/lab5_1.dir/lab5/lab5_1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab5_1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab5_1.exe
-  TARGET_IMPLIB = liblab5_1.dll.a
-  TARGET_PDB = lab5_1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab5_4
-
-
-#############################################
-# Order-only phony target for lab5_4
-
-build cmake_object_order_depends_target_lab5_4: phony || CMakeFiles/lab5_4.dir
-
-build CMakeFiles/lab5_4.dir/lab5/lab5_4.cpp.o: CXX_COMPILER__lab5_4_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab5/lab5_4.cpp || cmake_object_order_depends_target_lab5_4
-  DEP_FILE = CMakeFiles/lab5_4.dir/lab5/lab5_4.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab5_4.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab5_4.dir/lab5
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab5_4
-
-
-#############################################
-# Link the executable lab5_4.exe
-
-build lab5_4.exe: CXX_EXECUTABLE_LINKER__lab5_4_Debug CMakeFiles/lab5_4.dir/lab5/lab5_4.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab5_4.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab5_4.exe
-  TARGET_IMPLIB = liblab5_4.dll.a
-  TARGET_PDB = lab5_4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab5_5
-
-
-#############################################
-# Order-only phony target for lab5_5
-
-build cmake_object_order_depends_target_lab5_5: phony || CMakeFiles/lab5_5.dir
-
-build CMakeFiles/lab5_5.dir/lab5/lab5_5.cpp.o: CXX_COMPILER__lab5_5_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab5/lab5_5.cpp || cmake_object_order_depends_target_lab5_5
-  DEP_FILE = CMakeFiles/lab5_5.dir/lab5/lab5_5.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab5_5.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab5_5.dir/lab5
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab5_5
-
-
-#############################################
-# Link the executable lab5_5.exe
-
-build lab5_5.exe: CXX_EXECUTABLE_LINKER__lab5_5_Debug CMakeFiles/lab5_5.dir/lab5/lab5_5.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab5_5.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab5_5.exe
-  TARGET_IMPLIB = liblab5_5.dll.a
-  TARGET_PDB = lab5_5.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab5_6
-
-
-#############################################
-# Order-only phony target for lab5_6
-
-build cmake_object_order_depends_target_lab5_6: phony || CMakeFiles/lab5_6.dir
-
-build CMakeFiles/lab5_6.dir/lab5/lab5_6.cpp.o: CXX_COMPILER__lab5_6_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab5/lab5_6.cpp || cmake_object_order_depends_target_lab5_6
-  DEP_FILE = CMakeFiles/lab5_6.dir/lab5/lab5_6.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab5_6.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab5_6.dir/lab5
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab5_6
-
-
-#############################################
-# Link the executable lab5_6.exe
-
-build lab5_6.exe: CXX_EXECUTABLE_LINKER__lab5_6_Debug CMakeFiles/lab5_6.dir/lab5/lab5_6.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab5_6.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab5_6.exe
-  TARGET_IMPLIB = liblab5_6.dll.a
-  TARGET_PDB = lab5_6.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bank1
-
-
-#############################################
-# Order-only phony target for bank1
-
-build cmake_object_order_depends_target_bank1: phony || CMakeFiles/bank1.dir
-
-build CMakeFiles/bank1.dir/lab6/bank1.cpp.o: CXX_COMPILER__bank1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/bank1.cpp || cmake_object_order_depends_target_bank1
-  DEP_FILE = CMakeFiles/bank1.dir/lab6/bank1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/bank1.dir
-  OBJECT_FILE_DIR = CMakeFiles/bank1.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bank1
-
-
-#############################################
-# Link the executable bank1.exe
-
-build bank1.exe: CXX_EXECUTABLE_LINKER__bank1_Debug CMakeFiles/bank1.dir/lab6/bank1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/bank1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = bank1.exe
-  TARGET_IMPLIB = libbank1.dll.a
-  TARGET_PDB = bank1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6_1
-
-
-#############################################
-# Order-only phony target for lab6_1
-
-build cmake_object_order_depends_target_lab6_1: phony || CMakeFiles/lab6_1.dir
-
-build CMakeFiles/lab6_1.dir/lab6/lab6_1.cpp.o: CXX_COMPILER__lab6_1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/lab6_1.cpp || cmake_object_order_depends_target_lab6_1
-  DEP_FILE = CMakeFiles/lab6_1.dir/lab6/lab6_1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab6_1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6_1.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6_1
-
-
-#############################################
-# Link the executable lab6_1.exe
-
-build lab6_1.exe: CXX_EXECUTABLE_LINKER__lab6_1_Debug CMakeFiles/lab6_1.dir/lab6/lab6_1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab6_1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6_1.exe
-  TARGET_IMPLIB = liblab6_1.dll.a
-  TARGET_PDB = lab6_1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6_2
-
-
-#############################################
-# Order-only phony target for lab6_2
-
-build cmake_object_order_depends_target_lab6_2: phony || CMakeFiles/lab6_2.dir
-
-build CMakeFiles/lab6_2.dir/lab6/lab6_2.cpp.o: CXX_COMPILER__lab6_2_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/lab6_2.cpp || cmake_object_order_depends_target_lab6_2
-  DEP_FILE = CMakeFiles/lab6_2.dir/lab6/lab6_2.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab6_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6_2.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6_2
-
-
-#############################################
-# Link the executable lab6_2.exe
-
-build lab6_2.exe: CXX_EXECUTABLE_LINKER__lab6_2_Debug CMakeFiles/lab6_2.dir/lab6/lab6_2.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab6_2.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6_2.exe
-  TARGET_IMPLIB = liblab6_2.dll.a
-  TARGET_PDB = lab6_2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6_3
-
-
-#############################################
-# Order-only phony target for lab6_3
-
-build cmake_object_order_depends_target_lab6_3: phony || CMakeFiles/lab6_3.dir
-
-build CMakeFiles/lab6_3.dir/lab6/lab6_3.cpp.o: CXX_COMPILER__lab6_3_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/lab6_3.cpp || cmake_object_order_depends_target_lab6_3
-  DEP_FILE = CMakeFiles/lab6_3.dir/lab6/lab6_3.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab6_3.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6_3.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6_3
-
-
-#############################################
-# Link the executable lab6_3.exe
-
-build lab6_3.exe: CXX_EXECUTABLE_LINKER__lab6_3_Debug CMakeFiles/lab6_3.dir/lab6/lab6_3.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab6_3.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6_3.exe
-  TARGET_IMPLIB = liblab6_3.dll.a
-  TARGET_PDB = lab6_3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6_4
-
-
-#############################################
-# Order-only phony target for lab6_4
-
-build cmake_object_order_depends_target_lab6_4: phony || CMakeFiles/lab6_4.dir
-
-build CMakeFiles/lab6_4.dir/lab6/lab6_4.cpp.o: CXX_COMPILER__lab6_4_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/lab6_4.cpp || cmake_object_order_depends_target_lab6_4
-  DEP_FILE = CMakeFiles/lab6_4.dir/lab6/lab6_4.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab6_4.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6_4.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6_4
-
-
-#############################################
-# Link the executable lab6_4.exe
-
-build lab6_4.exe: CXX_EXECUTABLE_LINKER__lab6_4_Debug CMakeFiles/lab6_4.dir/lab6/lab6_4.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab6_4.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6_4.exe
-  TARGET_IMPLIB = liblab6_4.dll.a
-  TARGET_PDB = lab6_4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6_5
-
-
-#############################################
-# Order-only phony target for lab6_5
-
-build cmake_object_order_depends_target_lab6_5: phony || CMakeFiles/lab6_5.dir
-
-build CMakeFiles/lab6_5.dir/lab6/lab6_5.cpp.o: CXX_COMPILER__lab6_5_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/lab6_5.cpp || cmake_object_order_depends_target_lab6_5
-  DEP_FILE = CMakeFiles/lab6_5.dir/lab6/lab6_5.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab6_5.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6_5.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6_5
-
-
-#############################################
-# Link the executable lab6_5.exe
-
-build lab6_5.exe: CXX_EXECUTABLE_LINKER__lab6_5_Debug CMakeFiles/lab6_5.dir/lab6/lab6_5.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab6_5.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6_5.exe
-  TARGET_IMPLIB = liblab6_5.dll.a
-  TARGET_PDB = lab6_5.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6_6
-
-
-#############################################
-# Order-only phony target for lab6_6
-
-build cmake_object_order_depends_target_lab6_6: phony || CMakeFiles/lab6_6.dir
-
-build CMakeFiles/lab6_6.dir/lab6/lab6_6.cpp.o: CXX_COMPILER__lab6_6_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/lab6_6.cpp || cmake_object_order_depends_target_lab6_6
-  DEP_FILE = CMakeFiles/lab6_6.dir/lab6/lab6_6.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab6_6.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6_6.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6_6
-
-
-#############################################
-# Link the executable lab6_6.exe
-
-build lab6_6.exe: CXX_EXECUTABLE_LINKER__lab6_6_Debug CMakeFiles/lab6_6.dir/lab6/lab6_6.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab6_6.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6_6.exe
-  TARGET_IMPLIB = liblab6_6.dll.a
-  TARGET_PDB = lab6_6.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6_7
-
-
-#############################################
-# Order-only phony target for lab6_7
-
-build cmake_object_order_depends_target_lab6_7: phony || CMakeFiles/lab6_7.dir
-
-build CMakeFiles/lab6_7.dir/lab6/lab6_7.cpp.o: CXX_COMPILER__lab6_7_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/lab6_7.cpp || cmake_object_order_depends_target_lab6_7
-  DEP_FILE = CMakeFiles/lab6_7.dir/lab6/lab6_7.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab6_7.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6_7.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6_7
-
-
-#############################################
-# Link the executable lab6_7.exe
-
-build lab6_7.exe: CXX_EXECUTABLE_LINKER__lab6_7_Debug CMakeFiles/lab6_7.dir/lab6/lab6_7.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab6_7.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6_7.exe
-  TARGET_IMPLIB = liblab6_7.dll.a
-  TARGET_PDB = lab6_7.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6_8
-
-
-#############################################
-# Order-only phony target for lab6_8
-
-build cmake_object_order_depends_target_lab6_8: phony || CMakeFiles/lab6_8.dir
-
-build CMakeFiles/lab6_8.dir/lab6/lab6_8.cpp.o: CXX_COMPILER__lab6_8_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab6/lab6_8.cpp || cmake_object_order_depends_target_lab6_8
-  DEP_FILE = CMakeFiles/lab6_8.dir/lab6/lab6_8.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab6_8.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6_8.dir/lab6
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6_8
-
-
-#############################################
-# Link the executable lab6_8.exe
-
-build lab6_8.exe: CXX_EXECUTABLE_LINKER__lab6_8_Debug CMakeFiles/lab6_8.dir/lab6/lab6_8.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab6_8.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6_8.exe
-  TARGET_IMPLIB = liblab6_8.dll.a
-  TARGET_PDB = lab6_8.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab7_1
-
-
-#############################################
-# Order-only phony target for lab7_1
-
-build cmake_object_order_depends_target_lab7_1: phony || CMakeFiles/lab7_1.dir
-
-build CMakeFiles/lab7_1.dir/lab7/lab7_1.cpp.o: CXX_COMPILER__lab7_1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab7/lab7_1.cpp || cmake_object_order_depends_target_lab7_1
-  DEP_FILE = CMakeFiles/lab7_1.dir/lab7/lab7_1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab7_1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab7_1.dir/lab7
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab7_1
-
-
-#############################################
-# Link the executable lab7_1.exe
-
-build lab7_1.exe: CXX_EXECUTABLE_LINKER__lab7_1_Debug CMakeFiles/lab7_1.dir/lab7/lab7_1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab7_1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab7_1.exe
-  TARGET_IMPLIB = liblab7_1.dll.a
-  TARGET_PDB = lab7_1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab7_2
-
-
-#############################################
-# Order-only phony target for lab7_2
-
-build cmake_object_order_depends_target_lab7_2: phony || CMakeFiles/lab7_2.dir
-
-build CMakeFiles/lab7_2.dir/lab7/lab7_2.cpp.o: CXX_COMPILER__lab7_2_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab7/lab7_2.cpp || cmake_object_order_depends_target_lab7_2
-  DEP_FILE = CMakeFiles/lab7_2.dir/lab7/lab7_2.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab7_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab7_2.dir/lab7
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab7_2
-
-
-#############################################
-# Link the executable lab7_2.exe
-
-build lab7_2.exe: CXX_EXECUTABLE_LINKER__lab7_2_Debug CMakeFiles/lab7_2.dir/lab7/lab7_2.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab7_2.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab7_2.exe
-  TARGET_IMPLIB = liblab7_2.dll.a
-  TARGET_PDB = lab7_2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab7_3
-
-
-#############################################
-# Order-only phony target for lab7_3
-
-build cmake_object_order_depends_target_lab7_3: phony || CMakeFiles/lab7_3.dir
-
-build CMakeFiles/lab7_3.dir/lab7/lab7_3.cpp.o: CXX_COMPILER__lab7_3_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab7/lab7_3.cpp || cmake_object_order_depends_target_lab7_3
-  DEP_FILE = CMakeFiles/lab7_3.dir/lab7/lab7_3.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab7_3.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab7_3.dir/lab7
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab7_3
-
-
-#############################################
-# Link the executable lab7_3.exe
-
-build lab7_3.exe: CXX_EXECUTABLE_LINKER__lab7_3_Debug CMakeFiles/lab7_3.dir/lab7/lab7_3.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab7_3.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab7_3.exe
-  TARGET_IMPLIB = liblab7_3.dll.a
-  TARGET_PDB = lab7_3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab7_4
-
-
-#############################################
-# Order-only phony target for lab7_4
-
-build cmake_object_order_depends_target_lab7_4: phony || CMakeFiles/lab7_4.dir
-
-build CMakeFiles/lab7_4.dir/lab7/lab7_4.cpp.o: CXX_COMPILER__lab7_4_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab7/lab7_4.cpp || cmake_object_order_depends_target_lab7_4
-  DEP_FILE = CMakeFiles/lab7_4.dir/lab7/lab7_4.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab7_4.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab7_4.dir/lab7
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab7_4
-
-
-#############################################
-# Link the executable lab7_4.exe
-
-build lab7_4.exe: CXX_EXECUTABLE_LINKER__lab7_4_Debug CMakeFiles/lab7_4.dir/lab7/lab7_4.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab7_4.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab7_4.exe
-  TARGET_IMPLIB = liblab7_4.dll.a
-  TARGET_PDB = lab7_4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab7_5
-
-
-#############################################
-# Order-only phony target for lab7_5
-
-build cmake_object_order_depends_target_lab7_5: phony || CMakeFiles/lab7_5.dir
-
-build CMakeFiles/lab7_5.dir/lab7/lab7_5.cpp.o: CXX_COMPILER__lab7_5_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab7/lab7_5.cpp || cmake_object_order_depends_target_lab7_5
-  DEP_FILE = CMakeFiles/lab7_5.dir/lab7/lab7_5.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab7_5.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab7_5.dir/lab7
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab7_5
-
-
-#############################################
-# Link the executable lab7_5.exe
-
-build lab7_5.exe: CXX_EXECUTABLE_LINKER__lab7_5_Debug CMakeFiles/lab7_5.dir/lab7/lab7_5.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab7_5.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab7_5.exe
-  TARGET_IMPLIB = liblab7_5.dll.a
-  TARGET_PDB = lab7_5.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab8_1
-
-
-#############################################
-# Order-only phony target for lab8_1
-
-build cmake_object_order_depends_target_lab8_1: phony || CMakeFiles/lab8_1.dir
-
-build CMakeFiles/lab8_1.dir/lab8/lab8_1.cpp.o: CXX_COMPILER__lab8_1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab8/lab8_1.cpp || cmake_object_order_depends_target_lab8_1
-  DEP_FILE = CMakeFiles/lab8_1.dir/lab8/lab8_1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab8_1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab8_1.dir/lab8
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab8_1
-
-
-#############################################
-# Link the executable lab8_1.exe
-
-build lab8_1.exe: CXX_EXECUTABLE_LINKER__lab8_1_Debug CMakeFiles/lab8_1.dir/lab8/lab8_1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab8_1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab8_1.exe
-  TARGET_IMPLIB = liblab8_1.dll.a
-  TARGET_PDB = lab8_1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab8_2
-
-
-#############################################
-# Order-only phony target for lab8_2
-
-build cmake_object_order_depends_target_lab8_2: phony || CMakeFiles/lab8_2.dir
-
-build CMakeFiles/lab8_2.dir/lab8/lab8_2.cpp.o: CXX_COMPILER__lab8_2_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab8/lab8_2.cpp || cmake_object_order_depends_target_lab8_2
-  DEP_FILE = CMakeFiles/lab8_2.dir/lab8/lab8_2.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab8_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab8_2.dir/lab8
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab8_2
-
-
-#############################################
-# Link the executable lab8_2.exe
-
-build lab8_2.exe: CXX_EXECUTABLE_LINKER__lab8_2_Debug CMakeFiles/lab8_2.dir/lab8/lab8_2.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab8_2.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab8_2.exe
-  TARGET_IMPLIB = liblab8_2.dll.a
-  TARGET_PDB = lab8_2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab8_3
-
-
-#############################################
-# Order-only phony target for lab8_3
-
-build cmake_object_order_depends_target_lab8_3: phony || CMakeFiles/lab8_3.dir
-
-build CMakeFiles/lab8_3.dir/lab8/lab8_3.cpp.o: CXX_COMPILER__lab8_3_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/lab8/lab8_3.cpp || cmake_object_order_depends_target_lab8_3
-  DEP_FILE = CMakeFiles/lab8_3.dir/lab8/lab8_3.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/lab8_3.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab8_3.dir/lab8
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab8_3
-
-
-#############################################
-# Link the executable lab8_3.exe
-
-build lab8_3.exe: CXX_EXECUTABLE_LINKER__lab8_3_Debug CMakeFiles/lab8_3.dir/lab8/lab8_3.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/lab8_3.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab8_3.exe
-  TARGET_IMPLIB = liblab8_3.dll.a
-  TARGET_PDB = lab8_3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 3.6.1
-
-
-#############################################
-# Order-only phony target for 3.6.1
-
-build cmake_object_order_depends_target_3.6.1: phony || CMakeFiles/3.6.1.dir
-
-build CMakeFiles/3.6.1.dir/learn/3.6.1.cpp.o: CXX_COMPILER__3.2e6.2e1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/3.6.1.cpp || cmake_object_order_depends_target_3.6.1
-  DEP_FILE = CMakeFiles/3.6.1.dir/learn/3.6.1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/3.6.1.dir
-  OBJECT_FILE_DIR = CMakeFiles/3.6.1.dir/learn
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 3.6.1
-
-
-#############################################
-# Link the executable 3.6.1.exe
-
-build 3.6.1.exe: CXX_EXECUTABLE_LINKER__3.2e6.2e1_Debug CMakeFiles/3.6.1.dir/learn/3.6.1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/3.6.1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 3.6.1.exe
-  TARGET_IMPLIB = lib3.6.1.dll.a
-  TARGET_PDB = 3.6.1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target congzai1
-
-
-#############################################
-# Order-only phony target for congzai1
-
-build cmake_object_order_depends_target_congzai1: phony || CMakeFiles/congzai1.dir
-
-build CMakeFiles/congzai1.dir/learn/congzai1.cpp.o: CXX_COMPILER__congzai1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/congzai1.cpp || cmake_object_order_depends_target_congzai1
-  DEP_FILE = CMakeFiles/congzai1.dir/learn/congzai1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/congzai1.dir
-  OBJECT_FILE_DIR = CMakeFiles/congzai1.dir/learn
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target congzai1
-
-
-#############################################
-# Link the executable congzai1.exe
-
-build congzai1.exe: CXX_EXECUTABLE_LINKER__congzai1_Debug CMakeFiles/congzai1.dir/learn/congzai1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/congzai1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = congzai1.exe
-  TARGET_IMPLIB = libcongzai1.dll.a
-  TARGET_PDB = congzai1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target congzai
-
-
-#############################################
-# Order-only phony target for congzai
-
-build cmake_object_order_depends_target_congzai: phony || CMakeFiles/congzai.dir
-
-build CMakeFiles/congzai.dir/learn/congzai.cpp.o: CXX_COMPILER__congzai_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/congzai.cpp || cmake_object_order_depends_target_congzai
-  DEP_FILE = CMakeFiles/congzai.dir/learn/congzai.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/congzai.dir
-  OBJECT_FILE_DIR = CMakeFiles/congzai.dir/learn
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target congzai
-
-
-#############################################
-# Link the executable congzai.exe
-
-build congzai.exe: CXX_EXECUTABLE_LINKER__congzai_Debug CMakeFiles/congzai.dir/learn/congzai.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/congzai.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = congzai.exe
-  TARGET_IMPLIB = libcongzai.dll.a
-  TARGET_PDB = congzai.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target friend
-
-
-#############################################
-# Order-only phony target for friend
-
-build cmake_object_order_depends_target_friend: phony || CMakeFiles/friend.dir
-
-build CMakeFiles/friend.dir/learn/friend.cpp.o: CXX_COMPILER__friend_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/friend.cpp || cmake_object_order_depends_target_friend
-  DEP_FILE = CMakeFiles/friend.dir/learn/friend.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/friend.dir
-  OBJECT_FILE_DIR = CMakeFiles/friend.dir/learn
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target friend
-
-
-#############################################
-# Link the executable friend.exe
-
-build friend.exe: CXX_EXECUTABLE_LINKER__friend_Debug CMakeFiles/friend.dir/learn/friend.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/friend.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = friend.exe
-  TARGET_IMPLIB = libfriend.dll.a
-  TARGET_PDB = friend.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target friendclass
-
-
-#############################################
-# Order-only phony target for friendclass
-
-build cmake_object_order_depends_target_friendclass: phony || CMakeFiles/friendclass.dir
-
-build CMakeFiles/friendclass.dir/learn/friendclass.cpp.o: CXX_COMPILER__friendclass_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/friendclass.cpp || cmake_object_order_depends_target_friendclass
-  DEP_FILE = CMakeFiles/friendclass.dir/learn/friendclass.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/friendclass.dir
-  OBJECT_FILE_DIR = CMakeFiles/friendclass.dir/learn
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target friendclass
-
-
-#############################################
-# Link the executable friendclass.exe
-
-build friendclass.exe: CXX_EXECUTABLE_LINKER__friendclass_Debug CMakeFiles/friendclass.dir/learn/friendclass.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/friendclass.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = friendclass.exe
-  TARGET_IMPLIB = libfriendclass.dll.a
-  TARGET_PDB = friendclass.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target friendmember
-
-
-#############################################
-# Order-only phony target for friendmember
-
-build cmake_object_order_depends_target_friendmember: phony || CMakeFiles/friendmember.dir
-
-build CMakeFiles/friendmember.dir/learn/friendmember.cpp.o: CXX_COMPILER__friendmember_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/friendmember.cpp || cmake_object_order_depends_target_friendmember
-  DEP_FILE = CMakeFiles/friendmember.dir/learn/friendmember.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/friendmember.dir
-  OBJECT_FILE_DIR = CMakeFiles/friendmember.dir/learn
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target friendmember
-
-
-#############################################
-# Link the executable friendmember.exe
-
-build friendmember.exe: CXX_EXECUTABLE_LINKER__friendmember_Debug CMakeFiles/friendmember.dir/learn/friendmember.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/friendmember.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = friendmember.exe
-  TARGET_IMPLIB = libfriendmember.dll.a
-  TARGET_PDB = friendmember.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target new
-
-
-#############################################
-# Order-only phony target for new
-
-build cmake_object_order_depends_target_new: phony || CMakeFiles/new.dir
-
-build CMakeFiles/new.dir/review/new.cpp.o: CXX_COMPILER__new_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/new.cpp || cmake_object_order_depends_target_new
-  DEP_FILE = CMakeFiles/new.dir/review/new.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/new.dir
-  OBJECT_FILE_DIR = CMakeFiles/new.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target new
-
-
-#############################################
-# Link the executable new.exe
-
-build new.exe: CXX_EXECUTABLE_LINKER__new_Debug CMakeFiles/new.dir/review/new.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/new.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = new.exe
-  TARGET_IMPLIB = libnew.dll.a
-  TARGET_PDB = new.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target space
-
-
-#############################################
-# Order-only phony target for space
-
-build cmake_object_order_depends_target_space: phony || CMakeFiles/space.dir
-
-build CMakeFiles/space.dir/learn/space.cpp.o: CXX_COMPILER__space_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/space.cpp || cmake_object_order_depends_target_space
-  DEP_FILE = CMakeFiles/space.dir/learn/space.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/space.dir
-  OBJECT_FILE_DIR = CMakeFiles/space.dir/learn
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target space
-
-
-#############################################
-# Link the executable space.exe
-
-build space.exe: CXX_EXECUTABLE_LINKER__space_Debug CMakeFiles/space.dir/learn/space.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/space.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = space.exe
-  TARGET_IMPLIB = libspace.dll.a
-  TARGET_PDB = space.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target sta
-
-
-#############################################
-# Order-only phony target for sta
-
-build cmake_object_order_depends_target_sta: phony || CMakeFiles/sta.dir
-
-build CMakeFiles/sta.dir/learn/sta.cpp.o: CXX_COMPILER__sta_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/sta.cpp || cmake_object_order_depends_target_sta
-  DEP_FILE = CMakeFiles/sta.dir/learn/sta.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/sta.dir
-  OBJECT_FILE_DIR = CMakeFiles/sta.dir/learn
+build CMakeFiles/jisqi.dir/jisqi.cpp.obj: CXX_COMPILER__jisqi_Debug C$:/Users/south-zhao/Desktop/C++/jisqi.cpp || cmake_object_order_depends_target_jisqi
+  DEP_FILE = CMakeFiles\jisqi.dir\jisqi.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\jisqi.dir
+  OBJECT_FILE_DIR = CMakeFiles\jisqi.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target sta
+# Link build statements for EXECUTABLE target jisqi
 
 
 #############################################
-# Link the executable sta.exe
+# Link the executable jisqi.exe
 
-build sta.exe: CXX_EXECUTABLE_LINKER__sta_Debug CMakeFiles/sta.dir/learn/sta.cpp.o
+build jisqi.exe: CXX_EXECUTABLE_LINKER__jisqi_Debug CMakeFiles/jisqi.dir/jisqi.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/sta.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = sta.exe
-  TARGET_IMPLIB = libsta.dll.a
-  TARGET_PDB = sta.exe.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\jisqi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = jisqi.exe
+  TARGET_IMPLIB = libjisqi.dll.a
+  TARGET_PDB = jisqi.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target static
+# Object build statements for EXECUTABLE target protos
 
 
 #############################################
-# Order-only phony target for static
+# Order-only phony target for protos
 
-build cmake_object_order_depends_target_static: phony || CMakeFiles/static.dir
+build cmake_object_order_depends_target_protos: phony || CMakeFiles/protos.dir
 
-build CMakeFiles/static.dir/learn/static.cpp.o: CXX_COMPILER__static_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/learn/static.cpp || cmake_object_order_depends_target_static
-  DEP_FILE = CMakeFiles/static.dir/learn/static.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/static.dir
-  OBJECT_FILE_DIR = CMakeFiles/static.dir/learn
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target static
-
-
-#############################################
-# Link the executable static.exe
-
-build static.exe: CXX_EXECUTABLE_LINKER__static_Debug CMakeFiles/static.dir/learn/static.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/static.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = static.exe
-  TARGET_IMPLIB = libstatic.dll.a
-  TARGET_PDB = static.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 6-5
-
-
-#############################################
-# Order-only phony target for 6-5
-
-build cmake_object_order_depends_target_6-5: phony || CMakeFiles/6-5.dir
-
-build CMakeFiles/6-5.dir/review/6-5.cpp.o: CXX_COMPILER__6-5_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/6-5.cpp || cmake_object_order_depends_target_6-5
-  DEP_FILE = CMakeFiles/6-5.dir/review/6-5.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/6-5.dir
-  OBJECT_FILE_DIR = CMakeFiles/6-5.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 6-5
-
-
-#############################################
-# Link the executable 6-5.exe
-
-build 6-5.exe: CXX_EXECUTABLE_LINKER__6-5_Debug CMakeFiles/6-5.dir/review/6-5.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/6-5.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 6-5.exe
-  TARGET_IMPLIB = lib6-5.dll.a
-  TARGET_PDB = 6-5.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 6-8
-
-
-#############################################
-# Order-only phony target for 6-8
-
-build cmake_object_order_depends_target_6-8: phony || CMakeFiles/6-8.dir
-
-build CMakeFiles/6-8.dir/six/6-8.cpp.o: CXX_COMPILER__6-8_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/six/6-8.cpp || cmake_object_order_depends_target_6-8
-  DEP_FILE = CMakeFiles/6-8.dir/six/6-8.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/6-8.dir
-  OBJECT_FILE_DIR = CMakeFiles/6-8.dir/six
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 6-8
-
-
-#############################################
-# Link the executable 6-8.exe
-
-build 6-8.exe: CXX_EXECUTABLE_LINKER__6-8_Debug CMakeFiles/6-8.dir/six/6-8.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/6-8.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 6-8.exe
-  TARGET_IMPLIB = lib6-8.dll.a
-  TARGET_PDB = 6-8.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target array
-
-
-#############################################
-# Order-only phony target for array
-
-build cmake_object_order_depends_target_array: phony || CMakeFiles/array.dir
-
-build CMakeFiles/array.dir/six/array.cpp.o: CXX_COMPILER__array_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/six/array.cpp || cmake_object_order_depends_target_array
-  DEP_FILE = CMakeFiles/array.dir/six/array.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/array.dir
-  OBJECT_FILE_DIR = CMakeFiles/array.dir/six
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target array
-
-
-#############################################
-# Link the executable array.exe
-
-build array.exe: CXX_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/six/array.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/array.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = array.exe
-  TARGET_IMPLIB = libarray.dll.a
-  TARGET_PDB = array.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2-27
-
-
-#############################################
-# Order-only phony target for 2-27
-
-build cmake_object_order_depends_target_2-27: phony || CMakeFiles/2-27.dir
-
-build CMakeFiles/2-27.dir/timu/2-27.cpp.o: CXX_COMPILER__2-27_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/timu/2-27.cpp || cmake_object_order_depends_target_2-27
-  DEP_FILE = CMakeFiles/2-27.dir/timu/2-27.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/2-27.dir
-  OBJECT_FILE_DIR = CMakeFiles/2-27.dir/timu
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2-27
-
-
-#############################################
-# Link the executable 2-27.exe
-
-build 2-27.exe: CXX_EXECUTABLE_LINKER__2-27_Debug CMakeFiles/2-27.dir/timu/2-27.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/2-27.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2-27.exe
-  TARGET_IMPLIB = lib2-27.dll.a
-  TARGET_PDB = 2-27.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2-29
-
-
-#############################################
-# Order-only phony target for 2-29
-
-build cmake_object_order_depends_target_2-29: phony || CMakeFiles/2-29.dir
-
-build CMakeFiles/2-29.dir/timu/2-29.cpp.o: CXX_COMPILER__2-29_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/timu/2-29.cpp || cmake_object_order_depends_target_2-29
-  DEP_FILE = CMakeFiles/2-29.dir/timu/2-29.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/2-29.dir
-  OBJECT_FILE_DIR = CMakeFiles/2-29.dir/timu
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2-29
-
-
-#############################################
-# Link the executable 2-29.exe
-
-build 2-29.exe: CXX_EXECUTABLE_LINKER__2-29_Debug CMakeFiles/2-29.dir/timu/2-29.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/2-29.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2-29.exe
-  TARGET_IMPLIB = lib2-29.dll.a
-  TARGET_PDB = 2-29.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2-31
-
-
-#############################################
-# Order-only phony target for 2-31
-
-build cmake_object_order_depends_target_2-31: phony || CMakeFiles/2-31.dir
-
-build CMakeFiles/2-31.dir/timu/2-31.cpp.o: CXX_COMPILER__2-31_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/timu/2-31.cpp || cmake_object_order_depends_target_2-31
-  DEP_FILE = CMakeFiles/2-31.dir/timu/2-31.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/2-31.dir
-  OBJECT_FILE_DIR = CMakeFiles/2-31.dir/timu
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2-31
-
-
-#############################################
-# Link the executable 2-31.exe
-
-build 2-31.exe: CXX_EXECUTABLE_LINKER__2-31_Debug CMakeFiles/2-31.dir/timu/2-31.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/2-31.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2-31.exe
-  TARGET_IMPLIB = lib2-31.dll.a
-  TARGET_PDB = 2-31.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 3-12
-
-
-#############################################
-# Order-only phony target for 3-12
-
-build cmake_object_order_depends_target_3-12: phony || CMakeFiles/3-12.dir
-
-build CMakeFiles/3-12.dir/review/3-12.cpp.o: CXX_COMPILER__3-12_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/3-12.cpp || cmake_object_order_depends_target_3-12
-  DEP_FILE = CMakeFiles/3-12.dir/review/3-12.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/3-12.dir
-  OBJECT_FILE_DIR = CMakeFiles/3-12.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 3-12
-
-
-#############################################
-# Link the executable 3-12.exe
-
-build 3-12.exe: CXX_EXECUTABLE_LINKER__3-12_Debug CMakeFiles/3-12.dir/review/3-12.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/3-12.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 3-12.exe
-  TARGET_IMPLIB = lib3-12.dll.a
-  TARGET_PDB = 3-12.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 3-14
-
-
-#############################################
-# Order-only phony target for 3-14
-
-build cmake_object_order_depends_target_3-14: phony || CMakeFiles/3-14.dir
-
-build CMakeFiles/3-14.dir/review/3-14.cpp.o: CXX_COMPILER__3-14_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/3-14.cpp || cmake_object_order_depends_target_3-14
-  DEP_FILE = CMakeFiles/3-14.dir/review/3-14.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/3-14.dir
-  OBJECT_FILE_DIR = CMakeFiles/3-14.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 3-14
-
-
-#############################################
-# Link the executable 3-14.exe
-
-build 3-14.exe: CXX_EXECUTABLE_LINKER__3-14_Debug CMakeFiles/3-14.dir/review/3-14.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/3-14.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 3-14.exe
-  TARGET_IMPLIB = lib3-14.dll.a
-  TARGET_PDB = 3-14.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 4-1
-
-
-#############################################
-# Order-only phony target for 4-1
-
-build cmake_object_order_depends_target_4-1: phony || CMakeFiles/4-1.dir
-
-build CMakeFiles/4-1.dir/review/4-1.cpp.o: CXX_COMPILER__4-1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/4-1.cpp || cmake_object_order_depends_target_4-1
-  DEP_FILE = CMakeFiles/4-1.dir/review/4-1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/4-1.dir
-  OBJECT_FILE_DIR = CMakeFiles/4-1.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 4-1
-
-
-#############################################
-# Link the executable 4-1.exe
-
-build 4-1.exe: CXX_EXECUTABLE_LINKER__4-1_Debug CMakeFiles/4-1.dir/review/4-1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/4-1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 4-1.exe
-  TARGET_IMPLIB = lib4-1.dll.a
-  TARGET_PDB = 4-1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 4-7
-
-
-#############################################
-# Order-only phony target for 4-7
-
-build cmake_object_order_depends_target_4-7: phony || CMakeFiles/4-7.dir
-
-build CMakeFiles/4-7.dir/review/4-7.cpp.o: CXX_COMPILER__4-7_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/4-7.cpp || cmake_object_order_depends_target_4-7
-  DEP_FILE = CMakeFiles/4-7.dir/review/4-7.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/4-7.dir
-  OBJECT_FILE_DIR = CMakeFiles/4-7.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 4-7
-
-
-#############################################
-# Link the executable 4-7.exe
-
-build 4-7.exe: CXX_EXECUTABLE_LINKER__4-7_Debug CMakeFiles/4-7.dir/review/4-7.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/4-7.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 4-7.exe
-  TARGET_IMPLIB = lib4-7.dll.a
-  TARGET_PDB = 4-7.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 7-1
-
-
-#############################################
-# Order-only phony target for 7-1
-
-build cmake_object_order_depends_target_7-1: phony || CMakeFiles/7-1.dir
-
-build CMakeFiles/7-1.dir/review/7-1.cpp.o: CXX_COMPILER__7-1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/7-1.cpp || cmake_object_order_depends_target_7-1
-  DEP_FILE = CMakeFiles/7-1.dir/review/7-1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/7-1.dir
-  OBJECT_FILE_DIR = CMakeFiles/7-1.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 7-1
-
-
-#############################################
-# Link the executable 7-1.exe
-
-build 7-1.exe: CXX_EXECUTABLE_LINKER__7-1_Debug CMakeFiles/7-1.dir/review/7-1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/7-1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 7-1.exe
-  TARGET_IMPLIB = lib7-1.dll.a
-  TARGET_PDB = 7-1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 7-6
-
-
-#############################################
-# Order-only phony target for 7-6
-
-build cmake_object_order_depends_target_7-6: phony || CMakeFiles/7-6.dir
-
-build CMakeFiles/7-6.dir/review/7-6.cpp.o: CXX_COMPILER__7-6_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/7-6.cpp || cmake_object_order_depends_target_7-6
-  DEP_FILE = CMakeFiles/7-6.dir/review/7-6.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/7-6.dir
-  OBJECT_FILE_DIR = CMakeFiles/7-6.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 7-6
-
-
-#############################################
-# Link the executable 7-6.exe
-
-build 7-6.exe: CXX_EXECUTABLE_LINKER__7-6_Debug CMakeFiles/7-6.dir/review/7-6.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/7-6.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 7-6.exe
-  TARGET_IMPLIB = lib7-6.dll.a
-  TARGET_PDB = 7-6.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Bank
-
-
-#############################################
-# Order-only phony target for Bank
-
-build cmake_object_order_depends_target_Bank: phony || CMakeFiles/Bank.dir
-
-build CMakeFiles/Bank.dir/review/Bank.cpp.o: CXX_COMPILER__Bank_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/Bank.cpp || cmake_object_order_depends_target_Bank
-  DEP_FILE = CMakeFiles/Bank.dir/review/Bank.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/Bank.dir
-  OBJECT_FILE_DIR = CMakeFiles/Bank.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Bank
-
-
-#############################################
-# Link the executable Bank.exe
-
-build Bank.exe: CXX_EXECUTABLE_LINKER__Bank_Debug CMakeFiles/Bank.dir/review/Bank.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/Bank.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Bank.exe
-  TARGET_IMPLIB = libBank.dll.a
-  TARGET_PDB = Bank.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 9.1
-
-
-#############################################
-# Order-only phony target for 9.1
-
-build cmake_object_order_depends_target_9.1: phony || CMakeFiles/9.1.dir
-
-build CMakeFiles/9.1.dir/nine/9.1.cpp.o: CXX_COMPILER__9.2e1_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/nine/9.1.cpp || cmake_object_order_depends_target_9.1
-  DEP_FILE = CMakeFiles/9.1.dir/nine/9.1.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/9.1.dir
-  OBJECT_FILE_DIR = CMakeFiles/9.1.dir/nine
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 9.1
-
-
-#############################################
-# Link the executable 9.1.exe
-
-build 9.1.exe: CXX_EXECUTABLE_LINKER__9.2e1_Debug CMakeFiles/9.1.dir/nine/9.1.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/9.1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 9.1.exe
-  TARGET_IMPLIB = lib9.1.dll.a
-  TARGET_PDB = 9.1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 5.4
-
-
-#############################################
-# Order-only phony target for 5.4
-
-build cmake_object_order_depends_target_5.4: phony || CMakeFiles/5.4.dir
-
-build CMakeFiles/5.4.dir/review/5.4.cpp.o: CXX_COMPILER__5.2e4_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/5.4.cpp || cmake_object_order_depends_target_5.4
-  DEP_FILE = CMakeFiles/5.4.dir/review/5.4.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/5.4.dir
-  OBJECT_FILE_DIR = CMakeFiles/5.4.dir/review
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 5.4
-
-
-#############################################
-# Link the executable 5.4.exe
-
-build 5.4.exe: CXX_EXECUTABLE_LINKER__5.2e4_Debug CMakeFiles/5.4.dir/review/5.4.cpp.o
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/5.4.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 5.4.exe
-  TARGET_IMPLIB = lib5.4.dll.a
-  TARGET_PDB = 5.4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 5.5
-
-
-#############################################
-# Order-only phony target for 5.5
-
-build cmake_object_order_depends_target_5.5: phony || CMakeFiles/5.5.dir
-
-build CMakeFiles/5.5.dir/review/5.5.cpp.o: CXX_COMPILER__5.2e5_Debug /cygdrive/c/Users/赵鑫杰/Desktop/C++/review/5.5.cpp || cmake_object_order_depends_target_5.5
-  DEP_FILE = CMakeFiles/5.5.dir/review/5.5.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/5.5.dir
-  OBJECT_FILE_DIR = CMakeFiles/5.5.dir/review
+build CMakeFiles/protos.dir/protos.cpp.obj: CXX_COMPILER__protos_Debug C$:/Users/south-zhao/Desktop/C++/protos.cpp || cmake_object_order_depends_target_protos
+  DEP_FILE = CMakeFiles\protos.dir\protos.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\protos.dir
+  OBJECT_FILE_DIR = CMakeFiles\protos.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 5.5
+# Link build statements for EXECUTABLE target protos
 
 
 #############################################
-# Link the executable 5.5.exe
+# Link the executable protos.exe
 
-build 5.5.exe: CXX_EXECUTABLE_LINKER__5.2e5_Debug CMakeFiles/5.5.dir/review/5.5.cpp.o
+build protos.exe: CXX_EXECUTABLE_LINKER__protos_Debug CMakeFiles/protos.dir/protos.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,--enable-auto-import
-  OBJECT_DIR = CMakeFiles/5.5.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 5.5.exe
-  TARGET_IMPLIB = lib5.5.dll.a
-  TARGET_PDB = 5.5.exe.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\protos.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = protos.exe
+  TARGET_IMPLIB = libprotos.dll.a
+  TARGET_PDB = protos.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /cygdrive/c/Users/赵鑫杰/Desktop/C++/cmake-build-debug && /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cmd.exe /C "cd /D C:\Users\south-zhao\Desktop\C++\cmake-build-debug && "C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -2858,7 +404,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /cygdrive/c/Users/赵鑫杰/Desktop/C++/cmake-build-debug && /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S/cygdrive/c/Users/赵鑫杰/Desktop/C++ -B/cygdrive/c/Users/赵鑫杰/Desktop/C++/cmake-build-debug
+  COMMAND = cmd.exe /C "cd /D C:\Users\south-zhao\Desktop\C++\cmake-build-debug && "C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\south-zhao\Desktop\C++ -BC:\Users\south-zhao\Desktop\C++\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -2868,169 +414,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 12.2-1: phony 12.2-1.exe
-
 build 2-27: phony 2-27.exe
-
-build 2-29: phony 2-29.exe
-
-build 2-31: phony 2-31.exe
-
-build 3-12: phony 3-12.exe
-
-build 3-14: phony 3-14.exe
-
-build 3.6.1: phony 3.6.1.exe
-
-build 4-1: phony 4-1.exe
-
-build 4-7: phony 4-7.exe
-
-build 5.4: phony 5.4.exe
-
-build 5.5: phony 5.5.exe
-
-build 6-5: phony 6-5.exe
-
-build 6-8: phony 6-8.exe
-
-build 7-1: phony 7-1.exe
-
-build 7-6: phony 7-6.exe
-
-build 7.2: phony 7.2.exe
-
-build 7.3: phony 7.3.exe
-
-build 7.4: phony 7.4.exe
-
-build 7.5: phony 7.5.exe
-
-build 8.1: phony 8.1.exe
-
-build 8.2: phony 8.2.exe
-
-build 8.4: phony 8.4.exe
-
-build 9.1: phony 9.1.exe
-
-build Bank: phony Bank.exe
-
-build Point: phony Point.exe
-
-build array: phony array.exe
-
-build bank: phony bank.exe
-
-build bank1: phony bank1.exe
-
-build birthday: phony birthday.exe
-
-build car: phony car.exe
 
 build client: phony client.exe
 
-build colck: phony colck.exe
-
-build congzai: phony congzai.exe
-
-build congzai1: phony congzai1.exe
-
-build const: phony const.exe
-
-build derive: phony derive.exe
-
-build eryi: phony eryi.exe
-
-build friend: phony friend.exe
-
-build friendclass: phony friendclass.exe
-
-build friendmember: phony friendmember.exe
-
 build jisqi: phony jisqi.exe
 
-build lab4_1: phony lab4_1.exe
-
-build lab4_2: phony lab4_2.exe
-
-build lab4_3: phony lab4_3.exe
-
-build lab5_1: phony lab5_1.exe
-
-build lab5_4: phony lab5_4.exe
-
-build lab5_5: phony lab5_5.exe
-
-build lab5_6: phony lab5_6.exe
-
-build lab6_1: phony lab6_1.exe
-
-build lab6_2: phony lab6_2.exe
-
-build lab6_3: phony lab6_3.exe
-
-build lab6_4: phony lab6_4.exe
-
-build lab6_5: phony lab6_5.exe
-
-build lab6_6: phony lab6_6.exe
-
-build lab6_7: phony lab6_7.exe
-
-build lab6_8: phony lab6_8.exe
-
-build lab7_1: phony lab7_1.exe
-
-build lab7_2: phony lab7_2.exe
-
-build lab7_3: phony lab7_3.exe
-
-build lab7_4: phony lab7_4.exe
-
-build lab7_5: phony lab7_5.exe
-
-build lab8_1: phony lab8_1.exe
-
-build lab8_2: phony lab8_2.exe
-
-build lab8_3: phony lab8_3.exe
-
-build line: phony line.exe
-
-build many: phony many.exe
-
-build new: phony new.exe
+build main: phony main.exe
 
 build point: phony point.exe
-
-build pool: phony pool.exe
-
-build project: phony project.exe
-
-build protected: phony protected.exe
 
 build protos: phony protos.exe
 
 build public: phony public.exe
 
-build rabbit: phony rabbit.exe
-
-build rank: phony rank.exe
-
-build space: phony space.exe
-
-build sta: phony sta.exe
-
-build static: phony static.exe
-
 build stock: phony stock.exe
-
-build student: phony student.exe
-
-build students: phony students.exe
-
-build unit: phony unit.exe
 
 build xianding: phony xianding.exe
 
@@ -3042,9 +440,9 @@ build xyz: phony xyz.exe
 # =============================================================================
 
 #############################################
-# Folder: /cygdrive/c/Users/赵鑫杰/Desktop/C++/cmake-build-debug
+# Folder: C:/Users/south-zhao/Desktop/C++/cmake-build-debug
 
-build all: phony project.exe jisqi.exe client.exe point.exe protos.exe public.exe xianding.exe stock.exe xyz.exe 8.1.exe 8.2.exe 8.4.exe bank.exe birthday.exe colck.exe const.exe Point.exe pool.exe rabbit.exe rank.exe student.exe unit.exe line.exe 7.2.exe 7.3.exe 7.4.exe 7.5.exe 12.2-1.exe derive.exe eryi.exe many.exe car.exe protected.exe students.exe lab4_1.exe lab4_2.exe lab4_3.exe lab5_1.exe lab5_4.exe lab5_5.exe lab5_6.exe bank1.exe lab6_1.exe lab6_2.exe lab6_3.exe lab6_4.exe lab6_5.exe lab6_6.exe lab6_7.exe lab6_8.exe lab7_1.exe lab7_2.exe lab7_3.exe lab7_4.exe lab7_5.exe lab8_1.exe lab8_2.exe lab8_3.exe 3.6.1.exe congzai1.exe congzai.exe friend.exe friendclass.exe friendmember.exe new.exe space.exe sta.exe static.exe 6-5.exe 6-8.exe array.exe 2-27.exe 2-29.exe 2-31.exe 3-12.exe 3-14.exe 4-1.exe 4-7.exe 7-1.exe 7-6.exe Bank.exe 9.1.exe 5.4.exe 5.5.exe
+build all: phony public.exe xianding.exe 2-27.exe main.exe point.exe client.exe stock.exe xyz.exe jisqi.exe protos.exe
 
 # =============================================================================
 # Built-in targets
@@ -3053,14 +451,14 @@ build all: phony project.exe jisqi.exe client.exe point.exe protos.exe public.ex
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeCInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeCXXInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeCommonLanguageInclude.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeGenericSystem.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeInitializeConfigs.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeLanguageInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeRCInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeSystemSpecificInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeSystemSpecificInitialize.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Compiler/GNU-C.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Compiler/GNU-CXX.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Compiler/GNU.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN-GNU-C.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN-GNU-CXX.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN-GNU.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN-windres.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeCInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeCXXInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeCommonLanguageInclude.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeGenericSystem.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeInitializeConfigs.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeLanguageInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeRCInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeSystemSpecificInformation.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/CMakeSystemSpecificInitialize.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Compiler/GNU-C.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Compiler/GNU-CXX.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Compiler/GNU.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN-GNU-C.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN-GNU-CXX.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN-GNU.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN-windres.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/CYGWIN.cmake /cygdrive/c/Users/赵鑫杰/AppData/Local/JetBrains/CLion2022.1/cygwin_cmake/share/cmake-3.22.3/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Bin/tools/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/derive.dir/jicheng/derive.cpp.o -o derive.exe -Wl,--out-implib,libderive.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

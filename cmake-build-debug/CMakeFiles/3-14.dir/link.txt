@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/3-14.dir/review/3-14.cpp.o -o 3-14.exe -Wl,--out-implib,lib3-14.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
