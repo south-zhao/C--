@@ -1,5 +1,5 @@
 //
-// Created by ÕÔöÎ½Ü on 2022/5/21.
+// Created by ???Î½? on 2022/5/21.
 //
 #include "iostream"
 using namespace std;
@@ -9,7 +9,7 @@ int main()
     double num1 = 0.0;
     double num2 = 0.0;
     char a = 0;
-    cout<<"ÇëÊäÈëËãÊ½:\n";
+    cout<<"è¾“å…¥ç®—å¼:\n";
     cin>>num1>>a>>num2;
     switch (a) {
         case '+':
@@ -23,7 +23,7 @@ int main()
             break;
         case '/':
             if(num2 == 0)
-                cout<<"error,³ıÊı²»ÄÜÎªÁã\n";
+                cout<<"error,???????????\n";
             else
                 cout<<" = "<<num1 / num2<<endl;
             break;

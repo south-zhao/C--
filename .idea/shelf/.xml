@@ -1,0 +1,104 @@
+<changelist name="变更" date="1663145163588" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/变更/shelved.patch" />
+  <option name="DESCRIPTION" value="变更" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/2-27.dir/timu/2-27.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/变更/a.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/变更/a1.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/变更/CMakeDetermineCompilerABI_C.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/变更/CMakeDetermineCompilerABI_CXX.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/C__.dir/xianding.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/client.dir/client.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/client.dir/test.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/jisqi.dir/jisqi.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/point.dir/point.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/protos.dir/protos.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/public.dir/public.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/stock.dir/stock.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/stock.dir/unstock.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/test.dir/test.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/xianding.dir/xianding.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/xyz.dir/unxyz.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/xyz.dir/xyz.cpp.obj" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/Testing/Temporary/LastTest.log" />
+    <option name="AFTER_PATH" value="cmake-build-debug/Testing/Temporary/LastTest.log" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/变更/LastTest.log" />
+  </binary>
+</changelist>
