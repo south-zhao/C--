@@ -1,4 +1,4 @@
-"C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Bin/tools/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\22525\Desktop\C++ -B C:\Users\22525\Desktop\C++\cmake-build-debug
+"C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Bin/tools/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\22525\Desktop\Code\C++ -B C:\Users\22525\Desktop\Code\C++\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/22525/Desktop/C++/cmake-build-debug
+-- Build files have been written to: C:/Users/22525/Desktop/Code/C++/cmake-build-debug

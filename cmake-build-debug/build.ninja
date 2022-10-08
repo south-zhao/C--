@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/22525/Desktop/C++/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/22525/Desktop/Code/C++/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target public
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/22525/Desktop/C++/cmake-build-debug/
 
 build cmake_object_order_depends_target_public: phony || CMakeFiles/public.dir
 
-build CMakeFiles/public.dir/public.cpp.obj: CXX_COMPILER__public_Debug C$:/Users/22525/Desktop/C++/public.cpp || cmake_object_order_depends_target_public
+build CMakeFiles/public.dir/public.cpp.obj: CXX_COMPILER__public_Debug C$:/Users/22525/Desktop/Code/C++/public.cpp || cmake_object_order_depends_target_public
   DEP_FILE = CMakeFiles\public.dir\public.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\public.dir
@@ -82,7 +82,7 @@ build public.exe: CXX_EXECUTABLE_LINKER__public_Debug CMakeFiles/public.dir/publ
 
 build cmake_object_order_depends_target_xianding: phony || CMakeFiles/xianding.dir
 
-build CMakeFiles/xianding.dir/xianding.cpp.obj: CXX_COMPILER__xianding_Debug C$:/Users/22525/Desktop/C++/xianding.cpp || cmake_object_order_depends_target_xianding
+build CMakeFiles/xianding.dir/xianding.cpp.obj: CXX_COMPILER__xianding_Debug C$:/Users/22525/Desktop/Code/C++/xianding.cpp || cmake_object_order_depends_target_xianding
   DEP_FILE = CMakeFiles\xianding.dir\xianding.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\xianding.dir
@@ -115,7 +115,7 @@ build xianding.exe: CXX_EXECUTABLE_LINKER__xianding_Debug CMakeFiles/xianding.di
 
 build cmake_object_order_depends_target_2-27: phony || CMakeFiles/2-27.dir
 
-build CMakeFiles/2-27.dir/timu/2-27.cpp.obj: CXX_COMPILER__2-27_Debug C$:/Users/22525/Desktop/C++/timu/2-27.cpp || cmake_object_order_depends_target_2-27
+build CMakeFiles/2-27.dir/timu/2-27.cpp.obj: CXX_COMPILER__2-27_Debug C$:/Users/22525/Desktop/Code/C++/timu/2-27.cpp || cmake_object_order_depends_target_2-27
   DEP_FILE = CMakeFiles\2-27.dir\timu\2-27.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\2-27.dir
@@ -148,7 +148,7 @@ build 2-27.exe: CXX_EXECUTABLE_LINKER__2-27_Debug CMakeFiles/2-27.dir/timu/2-27.
 
 build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
-build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug C$:/Users/22525/Desktop/C++/main.cpp || cmake_object_order_depends_target_main
+build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug C$:/Users/22525/Desktop/Code/C++/main.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\main.dir
@@ -181,7 +181,7 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
 
 build cmake_object_order_depends_target_point: phony || CMakeFiles/point.dir
 
-build CMakeFiles/point.dir/point.cpp.obj: CXX_COMPILER__point_Debug C$:/Users/22525/Desktop/C++/point.cpp || cmake_object_order_depends_target_point
+build CMakeFiles/point.dir/point.cpp.obj: CXX_COMPILER__point_Debug C$:/Users/22525/Desktop/Code/C++/point.cpp || cmake_object_order_depends_target_point
   DEP_FILE = CMakeFiles\point.dir\point.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\point.dir
@@ -214,13 +214,13 @@ build point.exe: CXX_EXECUTABLE_LINKER__point_Debug CMakeFiles/point.dir/point.c
 
 build cmake_object_order_depends_target_client: phony || CMakeFiles/client.dir
 
-build CMakeFiles/client.dir/client.cpp.obj: CXX_COMPILER__client_Debug C$:/Users/22525/Desktop/C++/client.cpp || cmake_object_order_depends_target_client
+build CMakeFiles/client.dir/client.cpp.obj: CXX_COMPILER__client_Debug C$:/Users/22525/Desktop/Code/C++/client.cpp || cmake_object_order_depends_target_client
   DEP_FILE = CMakeFiles\client.dir\client.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\client.dir
   OBJECT_FILE_DIR = CMakeFiles\client.dir
 
-build CMakeFiles/client.dir/test.cpp.obj: CXX_COMPILER__client_Debug C$:/Users/22525/Desktop/C++/test.cpp || cmake_object_order_depends_target_client
+build CMakeFiles/client.dir/test.cpp.obj: CXX_COMPILER__client_Debug C$:/Users/22525/Desktop/Code/C++/test.cpp || cmake_object_order_depends_target_client
   DEP_FILE = CMakeFiles\client.dir\test.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\client.dir
@@ -253,13 +253,13 @@ build client.exe: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/clie
 
 build cmake_object_order_depends_target_stock: phony || CMakeFiles/stock.dir
 
-build CMakeFiles/stock.dir/stock.cpp.obj: CXX_COMPILER__stock_Debug C$:/Users/22525/Desktop/C++/stock.cpp || cmake_object_order_depends_target_stock
+build CMakeFiles/stock.dir/stock.cpp.obj: CXX_COMPILER__stock_Debug C$:/Users/22525/Desktop/Code/C++/stock.cpp || cmake_object_order_depends_target_stock
   DEP_FILE = CMakeFiles\stock.dir\stock.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\stock.dir
   OBJECT_FILE_DIR = CMakeFiles\stock.dir
 
-build CMakeFiles/stock.dir/unstock.cpp.obj: CXX_COMPILER__stock_Debug C$:/Users/22525/Desktop/C++/unstock.cpp || cmake_object_order_depends_target_stock
+build CMakeFiles/stock.dir/unstock.cpp.obj: CXX_COMPILER__stock_Debug C$:/Users/22525/Desktop/Code/C++/unstock.cpp || cmake_object_order_depends_target_stock
   DEP_FILE = CMakeFiles\stock.dir\unstock.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\stock.dir
@@ -292,13 +292,13 @@ build stock.exe: CXX_EXECUTABLE_LINKER__stock_Debug CMakeFiles/stock.dir/stock.c
 
 build cmake_object_order_depends_target_xyz: phony || CMakeFiles/xyz.dir
 
-build CMakeFiles/xyz.dir/xyz.cpp.obj: CXX_COMPILER__xyz_Debug C$:/Users/22525/Desktop/C++/xyz.cpp || cmake_object_order_depends_target_xyz
+build CMakeFiles/xyz.dir/xyz.cpp.obj: CXX_COMPILER__xyz_Debug C$:/Users/22525/Desktop/Code/C++/xyz.cpp || cmake_object_order_depends_target_xyz
   DEP_FILE = CMakeFiles\xyz.dir\xyz.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\xyz.dir
   OBJECT_FILE_DIR = CMakeFiles\xyz.dir
 
-build CMakeFiles/xyz.dir/unxyz.cpp.obj: CXX_COMPILER__xyz_Debug C$:/Users/22525/Desktop/C++/unxyz.cpp || cmake_object_order_depends_target_xyz
+build CMakeFiles/xyz.dir/unxyz.cpp.obj: CXX_COMPILER__xyz_Debug C$:/Users/22525/Desktop/Code/C++/unxyz.cpp || cmake_object_order_depends_target_xyz
   DEP_FILE = CMakeFiles\xyz.dir\unxyz.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\xyz.dir
@@ -331,7 +331,7 @@ build xyz.exe: CXX_EXECUTABLE_LINKER__xyz_Debug CMakeFiles/xyz.dir/xyz.cpp.obj C
 
 build cmake_object_order_depends_target_jisqi: phony || CMakeFiles/jisqi.dir
 
-build CMakeFiles/jisqi.dir/jisqi.cpp.obj: CXX_COMPILER__jisqi_Debug C$:/Users/22525/Desktop/C++/jisqi.cpp || cmake_object_order_depends_target_jisqi
+build CMakeFiles/jisqi.dir/jisqi.cpp.obj: CXX_COMPILER__jisqi_Debug C$:/Users/22525/Desktop/Code/C++/jisqi.cpp || cmake_object_order_depends_target_jisqi
   DEP_FILE = CMakeFiles\jisqi.dir\jisqi.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\jisqi.dir
@@ -364,7 +364,7 @@ build jisqi.exe: CXX_EXECUTABLE_LINKER__jisqi_Debug CMakeFiles/jisqi.dir/jisqi.c
 
 build cmake_object_order_depends_target_protos: phony || CMakeFiles/protos.dir
 
-build CMakeFiles/protos.dir/protos.cpp.obj: CXX_COMPILER__protos_Debug C$:/Users/22525/Desktop/C++/protos.cpp || cmake_object_order_depends_target_protos
+build CMakeFiles/protos.dir/protos.cpp.obj: CXX_COMPILER__protos_Debug C$:/Users/22525/Desktop/Code/C++/protos.cpp || cmake_object_order_depends_target_protos
   DEP_FILE = CMakeFiles\protos.dir\protos.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\protos.dir
@@ -397,7 +397,7 @@ build protos.exe: CXX_EXECUTABLE_LINKER__protos_Debug CMakeFiles/protos.dir/prot
 
 build cmake_object_order_depends_target_Bank: phony || CMakeFiles/Bank.dir
 
-build CMakeFiles/Bank.dir/review/Bank.cpp.obj: CXX_COMPILER__Bank_Debug C$:/Users/22525/Desktop/C++/review/Bank.cpp || cmake_object_order_depends_target_Bank
+build CMakeFiles/Bank.dir/review/Bank.cpp.obj: CXX_COMPILER__Bank_Debug C$:/Users/22525/Desktop/Code/C++/review/Bank.cpp || cmake_object_order_depends_target_Bank
   DEP_FILE = CMakeFiles\Bank.dir\review\Bank.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Bank.dir
@@ -430,7 +430,7 @@ build Bank.exe: CXX_EXECUTABLE_LINKER__Bank_Debug CMakeFiles/Bank.dir/review/Ban
 
 build cmake_object_order_depends_target_Student: phony || CMakeFiles/Student.dir
 
-build CMakeFiles/Student.dir/Student.cpp.obj: CXX_COMPILER__Student_Debug C$:/Users/22525/Desktop/C++/Student.cpp || cmake_object_order_depends_target_Student
+build CMakeFiles/Student.dir/Student.cpp.obj: CXX_COMPILER__Student_Debug C$:/Users/22525/Desktop/Code/C++/Student.cpp || cmake_object_order_depends_target_Student
   DEP_FILE = CMakeFiles\Student.dir\Student.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Student.dir
@@ -463,7 +463,7 @@ build Student.exe: CXX_EXECUTABLE_LINKER__Student_Debug CMakeFiles/Student.dir/S
 
 build cmake_object_order_depends_target_4-1: phony || CMakeFiles/4-1.dir
 
-build CMakeFiles/4-1.dir/review/4-1.cpp.obj: CXX_COMPILER__4-1_Debug C$:/Users/22525/Desktop/C++/review/4-1.cpp || cmake_object_order_depends_target_4-1
+build CMakeFiles/4-1.dir/review/4-1.cpp.obj: CXX_COMPILER__4-1_Debug C$:/Users/22525/Desktop/Code/C++/review/4-1.cpp || cmake_object_order_depends_target_4-1
   DEP_FILE = CMakeFiles\4-1.dir\review\4-1.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\4-1.dir
@@ -496,7 +496,7 @@ build 4-1.exe: CXX_EXECUTABLE_LINKER__4-1_Debug CMakeFiles/4-1.dir/review/4-1.cp
 
 build cmake_object_order_depends_target_congzai: phony || CMakeFiles/congzai.dir
 
-build CMakeFiles/congzai.dir/learn/congzai.cpp.obj: CXX_COMPILER__congzai_Debug C$:/Users/22525/Desktop/C++/learn/congzai.cpp || cmake_object_order_depends_target_congzai
+build CMakeFiles/congzai.dir/learn/congzai.cpp.obj: CXX_COMPILER__congzai_Debug C$:/Users/22525/Desktop/Code/C++/learn/congzai.cpp || cmake_object_order_depends_target_congzai
   DEP_FILE = CMakeFiles\congzai.dir\learn\congzai.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\congzai.dir
@@ -520,12 +520,78 @@ build congzai.exe: CXX_EXECUTABLE_LINKER__congzai_Debug CMakeFiles/congzai.dir/l
   TARGET_IMPLIB = libcongzai.dll.a
   TARGET_PDB = congzai.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-14
+
+
+#############################################
+# Order-only phony target for 3-14
+
+build cmake_object_order_depends_target_3-14: phony || CMakeFiles/3-14.dir
+
+build CMakeFiles/3-14.dir/review/3-14.cpp.obj: CXX_COMPILER__3-14_Debug C$:/Users/22525/Desktop/Code/C++/review/3-14.cpp || cmake_object_order_depends_target_3-14
+  DEP_FILE = CMakeFiles\3-14.dir\review\3-14.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\3-14.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-14.dir\review
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-14
+
+
+#############################################
+# Link the executable 3-14.exe
+
+build 3-14.exe: CXX_EXECUTABLE_LINKER__3-14_Debug CMakeFiles/3-14.dir/review/3-14.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3-14.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3-14.exe
+  TARGET_IMPLIB = lib3-14.dll.a
+  TARGET_PDB = 3-14.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-12
+
+
+#############################################
+# Order-only phony target for 3-12
+
+build cmake_object_order_depends_target_3-12: phony || CMakeFiles/3-12.dir
+
+build CMakeFiles/3-12.dir/review/3-12.cpp.obj: CXX_COMPILER__3-12_Debug C$:/Users/22525/Desktop/Code/C++/review/3-12.cpp || cmake_object_order_depends_target_3-12
+  DEP_FILE = CMakeFiles\3-12.dir\review\3-12.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\3-12.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-12.dir\review
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-12
+
+
+#############################################
+# Link the executable 3-12.exe
+
+build 3-12.exe: CXX_EXECUTABLE_LINKER__3-12_Debug CMakeFiles/3-12.dir/review/3-12.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3-12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3-12.exe
+  TARGET_IMPLIB = lib3-12.dll.a
+  TARGET_PDB = 3-12.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\22525\Desktop\C++\cmake-build-debug && "C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\22525\Desktop\Code\C++\cmake-build-debug && "C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -536,7 +602,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\22525\Desktop\C++\cmake-build-debug && "C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\22525\Desktop\C++ -BC:\Users\22525\Desktop\C++\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\22525\Desktop\Code\C++\cmake-build-debug && "C:\Bin\tools\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\22525\Desktop\Code\C++ -BC:\Users\22525\Desktop\Code\C++\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -547,6 +613,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build 2-27: phony 2-27.exe
+
+build 3-12: phony 3-12.exe
+
+build 3-14: phony 3-14.exe
 
 build 4-1: phony 4-1.exe
 
@@ -580,9 +650,9 @@ build xyz: phony xyz.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/22525/Desktop/C++/cmake-build-debug
+# Folder: C:/Users/22525/Desktop/Code/C++/cmake-build-debug
 
-build all: phony public.exe xianding.exe 2-27.exe main.exe point.exe client.exe stock.exe xyz.exe jisqi.exe protos.exe Bank.exe Student.exe 4-1.exe congzai.exe
+build all: phony public.exe xianding.exe 2-27.exe main.exe point.exe client.exe stock.exe xyz.exe jisqi.exe protos.exe Bank.exe Student.exe 4-1.exe congzai.exe 3-14.exe 3-12.exe
 
 # =============================================================================
 # Built-in targets
