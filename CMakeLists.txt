@@ -10,9 +10,9 @@ add_executable(main main.cpp)
 add_executable(point point.cpp)
 
 
-add_executable(client head/client.h client.cpp test.cpp)
-add_executable(stock head/stock.h stock.cpp unstock.cpp)
-add_executable(xyz head/xyz.h xyz.cpp unxyz.cpp)
+add_executable(client head/client.h head/client.cpp head/test.cpp)
+add_executable(stock head/stock.h head/stock.cpp head/unstock.cpp)
+add_executable(xyz head/xyz.h head/xyz.cpp head/unxyz.cpp)
 add_executable(jisqi jisqi.cpp)
 add_executable(protos protos.cpp)
 add_executable(Bank review/Bank.cpp)
